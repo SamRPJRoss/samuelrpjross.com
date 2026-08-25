@@ -1,11 +1,8 @@
 ---
 title: "Research"
 ---
-  </p>
 
 <div class="research-opening">
-
-  </p>
 
 Ecosystems are increasingly exposed to climate change, land-use intensification, invasive species, and other human pressures. Understanding why some ecosystems resist and recover from these changes, while others undergo dramatic or lasting changes, is a central challenge in ecology.
 

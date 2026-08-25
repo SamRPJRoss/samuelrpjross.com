@@ -1,5 +1,6 @@
 /*-- scss:defaults --*/
 
+
 /* =========================================================
    Colour palette
    ========================================================= */
@@ -12,14 +13,9 @@ $ink: #202326;
 $muted: #687078;
 $line: #d9dbd8;
 
-/* Pale identity backgrounds */
 $teal-pale: rgba(0, 112, 130, 0.095);
 $burgundy-pale: rgba(140, 0, 67, 0.095);
 $mustard-pale: rgba(133, 100, 0, 0.095);
-
-/* General/default website identity = burgundy */
-$paper: $burgundy-pale;
-$paper-soft: $burgundy-pale;
 
 
 /* =========================================================
@@ -77,11 +73,12 @@ body {
 }
 
 .navbar-nav .nav-link {
+  margin-left: .6rem;
+
+  color: $ink;
   font-size: .78rem;
   text-transform: uppercase;
   letter-spacing: .09em;
-  margin-left: .6rem;
-  color: $ink;
 }
 
 .navbar-nav .nav-link:hover,
@@ -105,7 +102,9 @@ h1 {
 h2 {
   margin-top: 5rem;
   padding-top: 1rem;
+
   border-top: 2px solid rgba(140, 0, 67, .20);
+
   font-size: clamp(2rem, 4vw, 3.25rem);
 }
 
@@ -124,11 +123,7 @@ a:hover {
 }
 
 .eyebrow,
-.research-label,
-.person-role,
-.pub-meta,
-.feature-caption,
-.image-caption {
+.research-label {
   font-size: .7rem;
   line-height: 1.35;
   letter-spacing: .12em;
@@ -137,8 +132,12 @@ a:hover {
 }
 
 .eyebrow {
-  color: $ink;
   margin-bottom: 1.5rem;
+  color: $ink;
+}
+
+footer {
+  border-top: 1px solid $line;
 }
 
 
@@ -149,13 +148,13 @@ a:hover {
 .hero {
   display: grid;
 
-  /* More space for the landscape photograph */
-  grid-template-columns: minmax(320px, .82fr) minmax(480px, 1.18fr);
+  grid-template-columns:
+    minmax(320px, .82fr)
+    minmax(480px, 1.18fr);
 
-  /* Slightly smaller gap gives the image more usable width */
   gap: clamp(2.5rem, 5vw, 5rem);
-
   align-items: center;
+
   padding: clamp(4rem, 8vw, 7rem) 0 5rem;
 }
 
@@ -166,9 +165,10 @@ a:hover {
 
 .hero-name {
   margin: 2rem 0 0;
+
+  color: $ink;
   font-size: 1.2rem;
   font-weight: 600;
-  color: $ink;
 }
 
 .hero-role {
@@ -180,29 +180,17 @@ a:hover {
   position: relative;
 }
 
-.image-placeholder,
-.feature-placeholder,
-.portrait-placeholder,
-.small-portrait-placeholder {
-  background:
-    linear-gradient(
-      145deg,
-      rgba(140,0,67,.94) 0%,
-      rgba(140,0,67,.76) 45%,
-      rgba(0,112,130,.72) 72%,
-      rgba(133,100,0,.78) 100%
-    );
-}
+.hero-photo {
+  display: block;
 
-.image-placeholder {
-  min-height: 520px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+
+  object-fit: cover;
+  object-position: center;
+
   border-radius: 2px;
-}
-
-.image-caption,
-.feature-caption {
-  margin-top: .65rem;
-  color: $muted;
 }
 
 
@@ -214,8 +202,9 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
-  padding: 4rem;
+
   margin: 0 -4rem 5rem;
+  padding: 4rem;
 
   background: $burgundy-pale;
 
@@ -224,10 +213,11 @@ a:hover {
 }
 
 .intro-lead {
+  max-width: 720px;
+
+  color: $ink;
   font-size: clamp(1.45rem, 2.5vw, 2.15rem);
   line-height: 1.3;
-  max-width: 720px;
-  color: $ink;
 }
 
 .intro-text {
@@ -236,7 +226,9 @@ a:hover {
 
 .jp-label {
   display: block;
+
   margin-top: 1.6rem;
+
   color: $muted;
   font-size: .88rem;
 }
@@ -250,35 +242,37 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
+
   margin-top: 2.5rem;
 }
 
 .research-card {
-  padding: 2.3rem;
-  min-height: 430px;
   display: flex;
   flex-direction: column;
+
+  min-height: 430px;
+  padding: 2.3rem;
+
   border-top: 7px solid $burgundy;
 }
 
-/* Response diversity / disturbance-stability = teal */
 .research-rd {
-  border-top-color: $teal;
   background: $teal-pale;
+  border-top-color: $teal;
 }
 
-/* Ecoacoustics = mustard */
 .research-acoustic {
-  border-top-color: $mustard;
   background: $mustard-pale;
+  border-top-color: $mustard;
 }
 
 .research-number {
-  font-size: .72rem;
-  letter-spacing: .12em;
-  font-weight: 700;
   margin-bottom: 2.5rem;
+
   color: $ink;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .12em;
 }
 
 .research-label {
@@ -287,9 +281,10 @@ a:hover {
 }
 
 .research-card h3 {
-  font-size: clamp(1.7rem, 3vw, 2.45rem);
   margin-bottom: 1rem;
+
   color: $ink;
+  font-size: clamp(1.7rem, 3vw, 2.45rem);
 }
 
 .research-card p {
@@ -298,34 +293,191 @@ a:hover {
 
 .research-card a {
   margin-top: auto;
+
   font-weight: 600;
   text-decoration: none;
 }
 
 
 /* =========================================================
-   Homepage publications preview
+   Homepage research cycle
    ========================================================= */
 
-.publication-preview {
+.research-cycle {
+  position: relative;
+
+  margin-top: 1.5rem;
+  padding: 3.6rem 0;
+}
+
+.research-cycle .research-grid {
+  position: relative;
+  z-index: 2;
+
+  margin-top: 0;
+}
+
+.cycle-arrow {
+  position: absolute;
+  z-index: 3;
+
+  left: 24%;
+
+  width: 52%;
+  height: 3.1rem;
+
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.cycle-arrow-top {
+  top: .3rem;
+
+  border-radius: 50% 50% 0 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      #007082 0%,
+      rgba(0, 112, 130, .75) 25%,
+      rgba(116, 120, 70, .55) 50%,
+      rgba(133, 100, 0, .75) 75%,
+      #856400 100%
+    );
+}
+
+.cycle-arrow-top::before {
+  content: "";
+
+  position: absolute;
+
+  left: 4px;
+  right: 4px;
+  top: 5px;
+
+  height: 4rem;
+
+  background: #fff;
+  border-radius: 50% 50% 0 0;
+}
+
+.cycle-arrow-bottom {
+  bottom: .3rem;
+
+  border-radius: 0 0 50% 50%;
+
+  background:
+    linear-gradient(
+      90deg,
+      #856400 0%,
+      rgba(133, 100, 0, .75) 25%,
+      rgba(116, 120, 70, .55) 50%,
+      rgba(0, 112, 130, .75) 75%,
+      #007082 100%
+    );
+}
+
+.cycle-arrow-bottom::before {
+  content: "";
+
+  position: absolute;
+
+  left: 4px;
+  right: 4px;
+  bottom: 5px;
+
+  height: 4rem;
+
+  background: #fff;
+  border-radius: 0 0 50% 50%;
+}
+
+
+/* =========================================================
+   Homepage recent publications
+   ========================================================= */
+
+#recent-publications .quarto-listing {
+  margin: 0;
+}
+
+.recent-publication-list {
+  margin-top: 1.4rem;
+}
+
+.recent-publication {
   display: grid;
-  grid-template-columns: 90px 1fr;
-  gap: 1.5rem;
-  padding: 1.4rem 0;
+  grid-template-columns: 78px minmax(0, 1fr);
+  gap: 1.4rem;
+
+  margin-bottom: .75rem;
+  padding: 1.25rem 1.35rem;
+
+  border-left: 4px solid;
   border-bottom: 1px solid $line;
 }
 
-.pub-year,
-.publication-year {
-  color: $ink;
-  font-variant-numeric: tabular-nums;
-  font-weight: 600;
+.recent-pub-stability {
+  background: $teal-pale;
+  border-left-color: $teal;
 }
 
-.pub-meta {
-  display: block;
-  margin-top: .5rem;
+.recent-pub-acoustic {
+  background: $mustard-pale;
+  border-left-color: $mustard;
+}
+
+.recent-pub-other {
+  background: $burgundy-pale;
+  border-left-color: $burgundy;
+}
+
+.recent-pub-stability-acoustic {
+  border-left-color: $teal;
+
+  background:
+    linear-gradient(
+      110deg,
+      $teal-pale 0%,
+      $teal-pale 32%,
+      rgba(0, 112, 130, .055) 45%,
+      rgba(133, 100, 0, .055) 55%,
+      $mustard-pale 68%,
+      $mustard-pale 100%
+    );
+}
+
+.recent-pub-year {
+  padding-top: .15rem;
+
+  color: $ink;
+  font-size: .78rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.recent-pub-main h3 {
+  margin: 0 0 .35rem;
+  padding: 0;
+
+  border: 0;
+
+  color: $ink;
+  font-size: 1.08rem;
+  line-height: 1.35;
+}
+
+.recent-pub-journal {
+  margin: 0 0 .65rem;
+
   color: $muted;
+  font-size: .9rem;
+}
+
+.recent-pub-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
 }
 
 .view-all {
@@ -335,34 +487,34 @@ a:hover {
 
 
 /* =========================================================
-   Contact strip
+   Homepage contact strip
    ========================================================= */
 
 .contact-strip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+
   margin-top: 6rem;
   padding: 2.2rem;
 
-  border-top: 1px solid rgba(140, 0, 67, .16);
-  border-bottom: 1px solid rgba(140, 0, 67, .16);
-
   background: $burgundy-pale;
 
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
-  align-items: center;
+  border-top: 1px solid rgba(140, 0, 67, .16);
+  border-bottom: 1px solid rgba(140, 0, 67, .16);
 }
 
 .social-text {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.2rem;
   justify-content: flex-end;
+  gap: 1.2rem;
 }
 
 .social-text a {
-  text-decoration: none;
   font-size: .82rem;
+  text-decoration: none;
 }
 
 
@@ -370,25 +522,9 @@ a:hover {
    Research page opening
    ========================================================= */
 
-.research-kicker {
-  margin: 2.5rem 0 .6rem;
-  font-size: .72rem;
-  font-weight: 700;
-  letter-spacing: .14em;
-  text-transform: uppercase;
-  color: $ink;
-}
-
 .research-opening {
   max-width: 900px;
   margin-bottom: 6rem;
-}
-
-.research-opening h2 {
-  margin-top: 0;
-  padding-top: 0;
-  border-top: none;
-  max-width: 800px;
 }
 
 .research-opening p {
@@ -397,13 +533,9 @@ a:hover {
 
 .jp-summary {
   margin-top: 1.8rem;
-  font-size: .86rem;
-  color: $muted;
-}
 
-.research-section-intro {
-  max-width: 850px;
-  margin: 0 0 3.5rem;
+  color: $muted;
+  font-size: .86rem;
 }
 
 
@@ -413,18 +545,18 @@ a:hover {
 
 .research-identity {
   position: relative;
+
   margin: 6rem 0 2rem;
   padding: 2rem 2.2rem 1.8rem;
+
   border-left: 6px solid;
 }
 
-/* Response diversity / disturbance-stability */
 .rd-identity {
   background: $teal-pale;
   border-left-color: $teal;
 }
 
-/* Ecoacoustics */
 .acoustic-identity {
   background: $mustard-pale;
   border-left-color: $mustard;
@@ -433,38 +565,48 @@ a:hover {
 .research-identity h2 {
   margin: 0;
   padding: 0;
+
   border: none;
+
   color: $ink;
 }
 
 .research-identity h3 {
-  margin: .7rem 0 .5rem;
   max-width: 850px;
+  margin: .7rem 0 .5rem;
+
+  color: $ink;
   font-size: clamp(1.3rem, 2.3vw, 1.85rem);
   font-weight: 500;
-  color: $ink;
 }
 
 .identity-number {
   margin-bottom: .65rem;
+
+  color: $ink;
   font-size: .72rem;
   font-weight: 700;
   letter-spacing: .14em;
-  color: $ink;
 }
 
 .jp-subtitle {
   margin: .8rem 0 0;
-  font-size: .8rem;
+
   color: $muted;
+  font-size: .8rem;
 }
+
+/* Prevent the global heading rules from interfering
+   with the two named research identity headings. */
 
 #response-diversity,
 #ecoacoustics {
   margin: 0;
   padding: 0;
+
   background: transparent;
   border-left: 0;
+
   color: $ink;
 }
 
@@ -473,66 +615,57 @@ a:hover {
   margin-top: .7rem;
   margin-bottom: .5rem;
   padding: 0;
+
   background: transparent;
   border-left: 0;
+
   color: $ink;
 }
 
 
 /* =========================================================
-   Research feature images
+   Research feature images and introduction
    ========================================================= */
 
 .research-feature {
   margin: 0 0 3.5rem;
 }
 
-.feature-placeholder {
-  min-height: 340px;
+.research-feature-image {
+  display: block;
+
+  width: 100%;
+  height: 340px;
+
+  object-fit: cover;
+  object-position: center;
 }
 
-/* Response diversity = teal */
-.rd-placeholder {
-  background:
-    linear-gradient(
-      135deg,
-      rgba(0,112,130,.92),
-      rgba(0,112,130,.58)
-    );
-}
-
-/* Ecoacoustics = mustard */
-.acoustic-placeholder {
-  background:
-    linear-gradient(
-      135deg,
-      rgba(133,100,0,.92),
-      rgba(133,100,0,.60)
-    );
-}
-
-.feature-caption {
-  margin-top: .7rem;
-  color: $muted;
+.research-section-intro {
+  max-width: 850px;
+  margin: 0 0 3.5rem;
 }
 
 
 /* =========================================================
-   Research strands / field-site cards
+   Research strand cards
    ========================================================= */
 
 .research-strands {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.5rem;
+
   margin: 3.5rem 0 6rem;
 }
 
 .research-strand {
   display: flex;
   flex-direction: column;
+
   min-width: 0;
   padding: 0 0 1.5rem;
+
   border-top: 4px solid;
 }
 
@@ -548,7 +681,7 @@ a:hover {
 
 
 /* =========================================================
-   Strand images / placeholders
+   Research strand images
    ========================================================= */
 
 .strand-image {
@@ -556,7 +689,6 @@ a:hover {
 
   width: 100%;
   max-width: none;
-
   aspect-ratio: 4 / 3;
 
   margin: 0;
@@ -565,41 +697,43 @@ a:hover {
   object-position: center;
 }
 
+/* Pandoc may wrap standalone images in a paragraph.
+   This keeps that wrapper full-width. */
+
+.research-strand > p:has(.strand-image) {
+  width: 100%;
+
+  margin: .6rem 0 1.4rem;
+  padding: 0;
+}
+
+
 /* =========================================================
-   Strand text
+   Research strand text
    ========================================================= */
 
 .research-strand h3 {
   margin: 0 1.4rem .55rem;
-  font-size: 1.45rem;
+
   color: $ink;
+  font-size: 1.45rem;
 }
 
-.research-strand > p:not(:has(.strand-image)),
-.research-strand > .strand-note {
+.acoustic-strands .research-strand h3 {
+  margin-bottom: .45rem;
+}
+
+.research-strand > p:not(:has(.strand-image)) {
   margin-left: 1.4rem;
   margin-right: 1.4rem;
-}
-
-/* Quarto may wrap standalone images in a paragraph.
-   Keep that wrapper full-width and margin-free. */
-.research-strand > p:has(.strand-image) {
-  width: 100%;
-  margin: .6rem 0 1.4rem;
-  padding: 0;
 }
 
 .research-strand > p:last-child {
   margin-bottom: 0;
 }
 
-.strand-theme {
-  margin-top: 0;
-  margin-bottom: .8rem;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.35;
-  color: $ink;
+.research-strand p {
+  line-height: 1.6;
 }
 
 .strand-meta {
@@ -609,98 +743,72 @@ a:hover {
 
   border-bottom: 1px solid rgba(32, 35, 38, .12);
 
+  color: $muted;
   font-size: .63rem;
+  font-weight: 700;
   line-height: 1.5;
   letter-spacing: .09em;
-  font-weight: 700;
-  color: $muted;
 }
 
-.acoustic-strands .research-strand h3 {
-  margin-bottom: .45rem;
+
+/* =========================================================
+   Research funding / programme acknowledgements
+   ========================================================= */
+
+.research-support {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2.5rem;
+  align-items: center;
+
+  margin: -2.5rem 0 6rem;
+  padding: 1.4rem 1.6rem;
+
+  border-left: 4px solid;
 }
 
-.strand-note {
-  margin-top: auto;
-  padding-top: 1.1rem;
-
-  font-size: .63rem;
-  line-height: 1.5;
-  letter-spacing: .08em;
-  font-weight: 700;
-  color: $muted;
+.rd-support {
+  background: $teal-pale;
+  border-left-color: $teal;
 }
 
-.research-strand p {
+.acoustic-support {
+  background: $mustard-pale;
+  border-left-color: $mustard;
+}
+
+.research-support-text {
+  max-width: 800px;
+
+  font-size: .92rem;
   line-height: 1.6;
 }
 
-
-/* =========================================================
-   Research synthesis
-   ========================================================= */
-
-.research-synthesis {
-  margin: 7rem 0 2rem;
-  padding: 3rem;
-
-  background: $burgundy-pale;
-  border-top: 5px solid $burgundy;
+.research-support-text p {
+  margin: 0;
 }
 
-.research-synthesis h2 {
-  margin-top: 0;
-  padding-top: 0;
-  border-top: none;
+.research-support-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 170px;
 }
 
-.synthesis-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
-  margin: 2.5rem 0 3rem;
-}
+.research-support-logo img {
+  display: block;
 
-.synthesis-half {
-  padding: 1.6rem;
-}
+  width: 100%;
+  max-width: 170px;
+  max-height: 80px;
 
-.rd-synthesis {
-  background: $teal-pale;
-  border-top: 4px solid $teal;
-}
-
-.acoustic-synthesis {
-  background: $mustard-pale;
-  border-top: 4px solid $mustard;
-}
-
-.synthesis-half h3 {
-  margin: 0 0 .8rem;
-  color: $ink;
-}
-
-.synthesis-half p:last-child {
-  margin-bottom: 0;
-}
-
-.synthesis-question {
-  max-width: 800px;
-  margin: 3rem 0 1.3rem;
-
-  font-size: clamp(1.7rem, 3vw, 2.5rem);
-  font-weight: 650;
-  line-height: 1.2;
-  letter-spacing: -.025em;
-}
-
-.synthesis-text {
-  max-width: 780px;
+  object-fit: contain;
 }
 
 
 /* =========================================================
-   People page — unified layout
+   People
    ========================================================= */
 
 .people-list {
@@ -713,6 +821,7 @@ a:hover {
   gap: 3rem;
 
   padding: 2.2rem 0 3.2rem;
+
   border-top: 1px solid $line;
 }
 
@@ -724,11 +833,6 @@ a:hover {
   margin-top: .5rem;
 }
 
-
-/* =========================================================
-   People photographs
-   ========================================================= */
-
 .person-photo {
   display: block;
 
@@ -739,19 +843,8 @@ a:hover {
   object-position: center;
 }
 
-@media (max-width: 900px) {
-
-  .person-photo {
-    max-width: 360px;
-    aspect-ratio: 4 / 3;
-  }
-}
-
-@media (max-width: 500px) {
-
-  .person-photo {
-    max-width: 100%;
-  }
+.person-details {
+  min-width: 0;
 }
 
 
@@ -759,35 +852,24 @@ a:hover {
    People names
    ========================================================= */
 
-.person-details {
-  min-width: 0;
-}
-
-.person-details h2 {
-  margin: 0 0 .15rem;
-  padding: 0;
-
-  border-top: none;
-
-  font-size: clamp(1.55rem, 2.5vw, 2.15rem);
-  line-height: 1.2;
-}
-
 .person-name-row {
   display: flex;
+  flex-wrap: nowrap;
   align-items: baseline;
   gap: .5rem;
-  flex-wrap: nowrap;
+
   margin: 0 0 .15rem;
 }
 
 .person-name-row .person-name {
+  min-width: 0;
   margin: 0;
   padding: 0;
+
   border-top: none;
+
   font-size: clamp(1.55rem, 2.5vw, 2.15rem);
   line-height: 1.2;
-  min-width: 0;
 }
 
 .person-name-row .anchorjs-link {
@@ -796,39 +878,41 @@ a:hover {
 
 .pronouns {
   flex: 0 0 auto;
-  font-size: 1;
+
+  color: $muted;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.2;
-  color: $muted;
   white-space: nowrap;
 }
 
 .jp-person-name {
   display: block;
+
   margin: .3rem 0 1rem;
 
+  color: $muted;
   font-size: 1.08rem;
   font-weight: 400;
   line-height: 1.4;
-  color: $muted;
 }
 
 
 /* =========================================================
-   People positions and information
+   People information
    ========================================================= */
 
 .person-position {
+  display: inline-block;
+
   margin: 0 0 1.6rem;
   padding: .45rem .7rem;
-
-  display: inline-block;
 
   background: $burgundy-pale;
   border-left: 3px solid $burgundy;
 
-  font-size: .92rem;
   color: $ink;
+  font-size: .92rem;
 }
 
 .person-email {
@@ -840,11 +924,6 @@ a:hover {
   line-height: 1.65;
 }
 
-
-/* =========================================================
-   People affiliations
-   ========================================================= */
-
 .person-affiliation {
   margin: 0 0 1.7rem;
   padding: 1rem 1.1rem;
@@ -855,56 +934,48 @@ a:hover {
   line-height: 1.65;
 }
 
-/* Japanese affiliation sits separately at lower right */
 .person-affiliation-jp {
   margin-top: 1rem;
   padding-top: .9rem;
 
   border-top: 1px solid rgba(140, 0, 67, .18);
 
-  text-align: right;
+  color: $muted;
   font-size: .88rem;
   line-height: 1.7;
-  color: $muted;
+  text-align: right;
 }
-
-
-/* =========================================================
-   People biographies
-   ========================================================= */
 
 .person-bio {
   max-width: 760px;
   margin-top: 1.4rem;
+
   line-height: 1.7;
 }
 
 
 /* =========================================================
-   People social icons
+   People social links
    ========================================================= */
 
 .person-socials {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: nowrap;
-
   align-items: center;
-
   gap: .8rem;
+
   margin-top: 1.6rem;
 }
 
 .person-socials a {
   display: inline-flex !important;
   flex: 0 0 2.2rem;
-
   align-items: center;
   justify-content: center;
 
   width: 2.2rem;
   height: 2.2rem;
-
   padding: 0;
   margin: 0;
 
@@ -912,10 +983,9 @@ a:hover {
   background: $burgundy-pale;
 
   color: $ink;
-  text-decoration: none;
-
   font-size: 1rem;
   line-height: 1;
+  text-decoration: none;
 
   transition:
     background-color .15s ease,
@@ -940,12 +1010,14 @@ a:hover {
 .past-members {
   margin-top: 5rem;
   padding-top: 1rem;
+
   border-top: 2px solid rgba(140, 0, 67, .20);
 }
 
 .past-members h2 {
   margin-top: 0;
   padding-top: 0;
+
   border-top: none;
 
   font-size: clamp(1.6rem, 2.5vw, 2.2rem);
@@ -989,13 +1061,14 @@ a:hover {
 
 
 /* =========================================================
-   Publications legend and tags
+   Publications legend
    ========================================================= */
 
 .publication-legend {
   display: flex;
   flex-wrap: wrap;
   gap: .8rem;
+
   margin: 2rem 0 3.5rem;
 }
 
@@ -1004,66 +1077,84 @@ a:hover {
 .legend-other,
 .tag {
   display: inline-block;
+
   padding: .35rem .55rem;
 
   font-size: .65rem;
-  letter-spacing: .08em;
   font-weight: 700;
+  letter-spacing: .08em;
 }
 
-/* Disturbance/Stability = teal */
 .legend-stability,
 .tag-stability {
-  color: $ink;
   background: $teal-pale;
   border-bottom: 2px solid $teal;
+  color: $ink;
 }
 
-/* Ecoacoustics = mustard */
 .legend-acoustic,
 .tag-acoustic {
-  color: $ink;
   background: $mustard-pale;
   border-bottom: 2px solid $mustard;
+  color: $ink;
 }
 
-/* Other = burgundy */
 .legend-other,
 .tag-other {
-  color: $ink;
   background: $burgundy-pale;
   border-bottom: 2px solid $burgundy;
+  color: $ink;
 }
 
 
 /* =========================================================
-   Publications
+   Full publications listing
    ========================================================= */
 
+#publications-all .quarto-listing {
+  margin: 0;
+}
+
+.publication-list {
+  margin-top: 0;
+}
+
+.publication-section-heading {
+  margin-top: 4.5rem;
+  margin-bottom: 1.3rem;
+  padding-top: 1rem;
+
+  border-top: 2px solid rgba(140, 0, 67, .20);
+
+  font-size: clamp(2rem, 4vw, 3.25rem);
+}
+
 .publication {
-  display: block;
   position: relative;
+  display: block;
 
   margin: 0;
   padding: 1.6rem 1.7rem 1.7rem;
 
-  border-bottom: 1px solid $line;
   border-left: 4px solid transparent;
+  border-bottom: 1px solid $line;
 }
 
-/* Disturbance/Stability */
 .pub-stability {
   background: $teal-pale;
   border-left-color: $teal;
 }
 
-/* Ecoacoustics */
 .pub-acoustic {
   background: $mustard-pale;
   border-left-color: $mustard;
 }
 
-/* Both categories: teal → mustard */
+.pub-other {
+  background: $burgundy-pale;
+  border-left-color: $burgundy;
+}
+
 .pub-stability-acoustic {
   border-left-color: $teal;
 
@@ -1072,17 +1163,11 @@ a:hover {
       110deg,
       $teal-pale 0%,
       $teal-pale 32%,
-      rgba(0, 112, 130, 0.055) 45%,
-      rgba(133, 100, 0, 0.055) 55%,
+      rgba(0, 112, 130, .055) 45%,
+      rgba(133, 100, 0, .055) 55%,
       $mustard-pale 68%,
       $mustard-pale 100%
     );
-}
-
-/* Other = burgundy */
-.pub-other {
-  background: $burgundy-pale;
-  border-left-color: $burgundy;
 }
 
 .publication + .publication {
@@ -1096,20 +1181,21 @@ a:hover {
 .publication h3 {
   margin: 0 0 .55rem;
 
+  color: $ink;
   font-size: clamp(1.08rem, 1.7vw, 1.35rem);
   line-height: 1.3;
-
-  color: $ink;
 }
 
 .publication-authors {
   margin: 0 0 .2rem;
-  line-height: 1.55;
+
   color: $ink;
+  line-height: 1.55;
 }
 
 .publication-journal {
   margin: 0 0 .85rem;
+
   color: $muted;
   line-height: 1.5;
 }
@@ -1119,6 +1205,7 @@ a:hover {
   flex-wrap: wrap;
   align-items: center;
   gap: .55rem .75rem;
+
   margin-top: .8rem;
 }
 
@@ -1133,18 +1220,14 @@ a:hover {
   font-size: .62rem;
 }
 
+
+/* =========================================================
+   Page-level headings
+   ========================================================= */
+
 main > h2 {
   margin-top: 4.5rem;
   margin-bottom: 1.3rem;
-}
-
-
-/* =========================================================
-   Footer
-   ========================================================= */
-
-footer {
-  border-top: 1px solid $line;
 }
 
 
@@ -1159,8 +1242,7 @@ footer {
   }
 
   .research-strand h3,
-  .research-strand > p,
-  .research-strand > .strand-note {
+  .research-strand > p:not(:has(.strand-image)) {
     margin-left: 1.1rem;
     margin-right: 1.1rem;
   }
@@ -1186,17 +1268,12 @@ footer {
     padding-top: 4rem;
   }
 
-  .image-placeholder {
-    min-height: 420px;
-  }
-
   .intro-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
 
     margin-left: -1.25rem;
     margin-right: -1.25rem;
-
     padding: 3rem 1.25rem;
   }
 
@@ -1206,14 +1283,25 @@ footer {
     gap: 2rem;
   }
 
+  /* The research cards have stacked, so the desktop
+     circular connector no longer makes sense. */
+
+  .research-cycle {
+    padding: 0;
+  }
+
+  .cycle-arrow {
+    display: none;
+  }
+
   .person-photo {
     max-width: 360px;
     aspect-ratio: 4 / 3;
   }
 
   .contact-strip {
-    align-items: flex-start;
     flex-direction: column;
+    align-items: flex-start;
   }
 
   .social-text {
@@ -1228,19 +1316,11 @@ footer {
     margin-top: 4.5rem;
     padding: 1.6rem;
   }
-
-  .synthesis-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .research-synthesis {
-    padding: 2rem;
-  }
 }
 
 
 /* =========================================================
-   Responsive — research cards to one column
+   Responsive — narrow screens
    ========================================================= */
 
 @media (max-width: 760px) {
@@ -1248,6 +1328,7 @@ footer {
   .research-strands {
     grid-template-columns: 1fr;
     gap: 1.8rem;
+
     margin: 2.8rem 0 4.5rem;
   }
 
@@ -1255,38 +1336,46 @@ footer {
     width: 100%;
   }
 
-.strand-image {
-  aspect-ratio: 16 / 9;
-}
+  .strand-image {
+    aspect-ratio: 16 / 9;
+  }
 
-.research-support {
-  grid-template-columns: 1fr;
-  gap: 1.2rem;
-
-  margin-top: -1.5rem;
-  padding: 1.3rem;
-}
-
-.research-support-logo {
-  width: 140px;
-  justify-self: start;
-}
-
-.research-support-logo img {
-  max-width: 140px;
-  max-height: 70px;
-}
-
-.research-strand > p:has(.strand-image) {
-  margin-top: .5rem;
-  margin-bottom: 1.2rem;
-}
+  .research-strand > p:has(.strand-image) {
+    margin-top: .5rem;
+    margin-bottom: 1.2rem;
+  }
 
   .research-strand h3,
-  .research-strand > p,
-  .research-strand > .strand-note {
+  .research-strand > p:not(:has(.strand-image)) {
     margin-left: 1.25rem;
     margin-right: 1.25rem;
+  }
+
+  .research-support {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+
+    margin-top: -1.5rem;
+    padding: 1.3rem;
+  }
+
+  .research-support-logo {
+    width: 140px;
+    justify-self: start;
+  }
+
+  .research-support-logo img {
+    max-width: 140px;
+    max-height: 70px;
+  }
+
+  .recent-publication {
+    grid-template-columns: 1fr;
+    gap: .3rem;
+  }
+
+  .recent-pub-year {
+    font-size: .72rem;
   }
 }
 
@@ -1309,19 +1398,6 @@ footer {
     padding-top: 3rem;
   }
 
-  .image-placeholder {
-    min-height: 330px;
-  }
-
-  .feature-placeholder {
-    min-height: 260px;
-  }
-
-  .publication-preview {
-    grid-template-columns: 1fr;
-    gap: .35rem;
-  }
-
   .research-card {
     min-height: 350px;
     padding: 1.6rem;
@@ -1336,9 +1412,8 @@ footer {
     padding: 1.35rem;
   }
 
-  .research-synthesis {
-    margin-top: 5rem;
-    padding: 1.5rem;
+  .research-feature-image {
+    height: 260px;
   }
 
   .publication {
@@ -1375,12 +1450,13 @@ footer {
     max-width: 100%;
   }
 
-  .person-details h2 {
-    font-size: 1.65rem;
+  .person-name-row {
+    flex-wrap: wrap;
+    row-gap: .15rem;
   }
 
-  .jp-person-name {
-    margin-top: .25rem;
+  .person-name-row .person-name {
+    font-size: 1.65rem;
   }
 
   .person-position {
@@ -1394,369 +1470,5 @@ footer {
 
   .person-socials {
     flex-wrap: wrap;
-  }
-}
-
-/* =========================================================
-   Research funding / programme acknowledgements
-   ========================================================= */
-
-.research-support {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 2.5rem;
-  align-items: center;
-
-  margin: -2.5rem 0 6rem;
-  padding: 1.4rem 1.6rem;
-
-  border-left: 4px solid;
-}
-
-.rd-support {
-  background: $teal-pale;
-  border-left-color: $teal;
-}
-
-.acoustic-support {
-  background: $mustard-pale;
-  border-left-color: $mustard;
-}
-
-.research-support-text {
-  max-width: 800px;
-  font-size: .92rem;
-  line-height: 1.6;
-}
-
-.research-support-text p {
-  margin: 0;
-}
-
-.research-support-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 170px;
-}
-
-.research-support-logo img {
-  display: block;
-
-  width: 100%;
-  max-width: 170px;
-  max-height: 80px;
-
-  object-fit: contain;
-}
-
-
-/* =========================================================
-   Homepage research cycle connector
-   ========================================================= */
-
-.research-cycle {
-  position: relative;
-  margin-top: 1.5rem;
-
-  /* Dedicated space for the two connecting arcs */
-  padding: 3.6rem 0;
-}
-
-.research-cycle .research-grid {
-  position: relative;
-  z-index: 2;
-  margin-top: 0;
-}
-
-
-/* =========================================================
-   Shared arc structure
-   ========================================================= */
-
-.cycle-arrow {
-  position: absolute;
-  z-index: 3;
-
-  left: 24%;
-  width: 52%;
-  height: 3.1rem;
-
-  pointer-events: none;
-
-  /*
-  Crucial: prevent the white inner oval from escaping
-  the space occupied by the connector.
-  */
-  overflow: hidden;
-}
-
-
-/* =========================================================
-   Top arc
-   Teal → mustard
-   ========================================================= */
-
-.cycle-arrow-top {
-  top: .3rem;
-
-  border-radius: 50% 50% 0 0;
-
-  background:
-    linear-gradient(
-      90deg,
-      #007082 0%,
-      rgba(0, 112, 130, .75) 25%,
-      rgba(116, 120, 70, .55) 50%,
-      rgba(133, 100, 0, .75) 75%,
-      #856400 100%
-    );
-}
-
-.cycle-arrow-top::before {
-  content: "";
-
-  position: absolute;
-
-  left: 4px;
-  right: 4px;
-  top: 5px;
-
-  /*
-  Deliberately taller than the parent.
-  overflow:hidden on .cycle-arrow clips it.
-  */
-  height: 4rem;
-
-  background: #fff;
-  border-radius: 50% 50% 0 0;
-}
-
-
-/* =========================================================
-   Bottom arc
-   Mustard → teal
-   ========================================================= */
-
-.cycle-arrow-bottom {
-  bottom: .3rem;
-
-  border-radius: 0 0 50% 50%;
-
-  background:
-    linear-gradient(
-      90deg,
-      #856400 0%,
-      rgba(133, 100, 0, .75) 25%,
-      rgba(116, 120, 70, .55) 50%,
-      rgba(0, 112, 130, .75) 75%,
-      #007082 100%
-    );
-}
-
-.cycle-arrow-bottom::before {
-  content: "";
-
-  position: absolute;
-
-  left: 4px;
-  right: 4px;
-  bottom: 5px;
-
-  height: 4rem;
-
-  background: #fff;
-  border-radius: 0 0 50% 50%;
-}
-
-
-/* =========================================================
-   Mobile
-   ========================================================= */
-
-@media (max-width: 760px) {
-
-  .research-cycle {
-    padding: 0;
-  }
-
-  .cycle-arrow {
-    display: none;
-  }
-}
-
-/* =========================================================
-   Automated recent publications — homepage
-   ========================================================= */
-
-#recent-publications .quarto-listing {
-  margin: 0;
-}
-
-.recent-publication-list {
-  margin-top: 1.4rem;
-}
-
-.recent-publication {
-  display: grid;
-  grid-template-columns: 78px minmax(0, 1fr);
-  gap: 1.4rem;
-  padding: 1.25rem 1.35rem;
-  margin-bottom: .75rem;
-  border-left: 4px solid;
-  border-bottom: 1px solid $line;
-}
-
-.recent-pub-stability {
-  background: $teal-pale;
-  border-left-color: $teal;
-}
-
-.recent-pub-acoustic {
-  background: $mustard-pale;
-  border-left-color: $mustard;
-}
-
-.recent-pub-other {
-  background: $burgundy-pale;
-  border-left-color: $burgundy;
-}
-
-.recent-pub-stability-acoustic {
-  border-left-color: $teal;
-  background:
-    linear-gradient(
-      110deg,
-      $teal-pale 0%,
-      $teal-pale 32%,
-      rgba(0, 112, 130, .055) 45%,
-      rgba(133, 100, 0, .055) 55%,
-      $mustard-pale 68%,
-      $mustard-pale 100%
-    );
-}
-
-.recent-pub-year {
-  padding-top: .15rem;
-  font-size: .78rem;
-  font-weight: 700;
-  font-variant-numeric: tabular-nums;
-  color: $ink;
-}
-
-.recent-pub-main h3 {
-  margin: 0 0 .35rem;
-  padding: 0;
-  border: 0;
-  font-size: 1.08rem;
-  line-height: 1.35;
-  color: $ink;
-}
-
-.recent-pub-journal {
-  margin: 0 0 .65rem;
-  color: $muted;
-  font-size: .9rem;
-}
-
-.recent-pub-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .4rem;
-}
-
-
-/* =========================================================
-   Automated full publications listing
-   ========================================================= */
-
-#publications-all .quarto-listing {
-  margin: 0;
-}
-
-.publication-list {
-  margin-top: 0;
-}
-
-.publication-section-heading {
-  margin-top: 4.5rem;
-  margin-bottom: 1.3rem;
-  padding-top: 1rem;
-  border-top: 2px solid rgba(140, 0, 67, .20);
-  font-size: clamp(2rem, 4vw, 3.25rem);
-}
-
-
-/* =========================================================
-   Connector / automated publications — responsive
-   ========================================================= */
-
-@media (max-width: 760px) {
-
-  .research-cycle {
-    padding: 0;
-  }
-
-  .research-cycle-arrows {
-    display: none;
-  }
-
-  .recent-publication {
-    grid-template-columns: 1fr;
-    gap: .3rem;
-  }
-
-  .recent-pub-year {
-    font-size: .72rem;
-  }
-}
-
-/* =========================================================
-   Real homepage hero image
-   ========================================================= */
-
-.hero-photo {
-  display: block;
-  width: 100%;
-
-  /* More landscape-like */
-  aspect-ratio: 4 / 3;
-  height: auto;
-
-  object-fit: cover;
-  object-position: center;
-
-  border-radius: 2px;
-}
-
-@media (max-width: 900px) {
-  .hero-photo {
-    height: 420px;
-  }
-}
-
-@media (max-width: 600px) {
-  .hero-photo {
-    height: 330px;
-  }
-}
-
-/* =========================================================
-   Main research feature images
-   ========================================================= */
-
-.research-feature-image {
-  display: block;
-  width: 100%;
-  height: 340px;
-
-  object-fit: cover;
-  object-position: center;
-}
-
-@media (max-width: 600px) {
-  .research-feature-image {
-    height: 260px;
   }
 }
