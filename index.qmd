@@ -17,7 +17,7 @@ listing:
 
 <div class="eyebrow">ECOLOGICAL STABILITY · RESPONSE DIVERSITY · ECOACOUSTICS</div>
 
-# What drives ecological stability?
+# How do complex ecosystems persist?
 
 <p class="hero-name">Samuel R.P-J. Ross</p>
 
@@ -42,7 +42,7 @@ I study why some ecosystems remain stable or can rapidly recover from environmen
 :::
 
 ::: {.intro-text}
-I'm an Associate Professor in the Hakubi Center for Advanced Research and Graduate School of Agriculture at Kyoto University in Japan. My research combines ecological concepts and methods with high-resolution data to understand the mechanisms underpinning ecological stability.
+I'm an Associate Professor at the Hakubi Center for Advanced Research and Graduate School of Agriculture of Kyoto University in Japan. My research combines ecological concepts and methods with high-resolution data to understand the mechanisms underpinning ecological stability.
 
 <span class="jp-label">生態系の安定性・レジリエンス・応答多様性・生態音響学</span>
 :::
