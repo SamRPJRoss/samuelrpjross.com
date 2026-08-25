@@ -71,7 +71,7 @@ I'm an Associate Professor in the Hakubi Center for Advanced Research and Gradua
 <a href="research.qmd#response-diversity">Find out more <span>→</span></a>
 
 :::
-
+ 
 
 ::: {.research-card .research-acoustic}
 
