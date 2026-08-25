@@ -23,9 +23,6 @@ website:
       - href: publications.qmd
         text: Publications
     right:
-      - icon: globe
-        text: "EN / JP"
-        href: "#"
       - icon: orcid
         href: "https://orcid.org/0000-0001-9402-9119"
         aria-label: "ORCID"
