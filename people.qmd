@@ -56,6 +56,10 @@ Kitashirakawa Oiwake-cho, Sakyo-ku, Kyoto, 606-8502 Japan
 I’m interested in the abiotic and biotic drivers of ecological stability. Specifically, I develop concepts and methods for assessing the role of response diversity in driving stability, and I use ecoacoustic data to quantify ecosystem dynamics, change, and stability in real-world ecosystems. In my spare time, I enjoy reading, going to the cinema, drinking matcha lattes, and being Kyoto's least-requested DJ.
 </p>
 
+<p class="person-keywords-jp">
+生態系の安定性・応答の多様性・音響モニタリング
+</p>
+
 <div class="person-socials">
 
 <a href="https://scholar.google.co.uk/citations?user=R3aMfY0AAAAJ&hl=en"
@@ -110,6 +114,10 @@ I’m interested in the abiotic and biotic drivers of ecological stability. Spec
 
 <p class="person-bio">
 Nacho provides essential support. His main research focus is prey capture rates, especially of toy mice and feathers on strings. He likes birdwatching and napping in the sun.
+</p>
+
+<p class="person-keywords-jp">
+獲物捕獲・鳥類観察・昼寝
 </p>
 
 </div>
