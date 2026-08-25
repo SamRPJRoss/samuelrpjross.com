@@ -1,0 +1,117 @@
+---
+title: ""
+description: "Samuel R.P-J. Ross — ecologist studying ecological stability, response diversity, and ecoacoustics."
+listing:
+  id: recent-publications
+  contents:
+    - data/publications.yml
+  template: _templates/publications-recent.ejs.md
+  sort: false
+  max-items: 3
+  sort-ui: false
+  filter-ui: false
+---
+
+::: {.hero}
+::: {.hero-copy}
+
+<div class="eyebrow">ECOLOGICAL STABILITY · RESPONSE DIVERSITY · ECOACOUSTICS</div>
+
+# What drives ecological stability?
+
+<p class="hero-name">Samuel R.P-J. Ross</p>
+
+<p class="hero-role">Community ecology · Global change</p>
+
+:::
+
+::: {.hero-image}
+<img
+  class="hero-photo"
+  src="assets/images/home/hero.jpg"
+  alt="Field photograph illustrating ecological research"
+>
+:::
+:::
+
+
+::: {.intro-grid}
+
+::: {.intro-lead}
+I study why some ecosystems remain stable or can rapidly recover from environmental change, while others collapse.
+:::
+
+::: {.intro-text}
+I'm an Associate Professor in the Hakubi Center for Advanced Research and Graduate School of Agriculture at Kyoto University in Japan. My research combines ecological concepts and methods with high-resolution data to understand the mechanisms underpinning ecological stability.
+
+<span class="jp-label">生態系の安定性・レジリエンス・応答多様性・生態音響学</span>
+:::
+
+:::
+
+
+## Research
+
+::: {.research-cycle}
+
+<div class="cycle-arrow cycle-arrow-top" aria-hidden="true"></div>
+<div class="cycle-arrow cycle-arrow-bottom" aria-hidden="true"></div>
+
+::: {.research-grid}
+
+::: {.research-card .research-rd}
+
+<div class="research-number">01</div>
+<div class="research-label">RESPONSE DIVERSITY</div>
+
+<h3>Exploring concepts and methods for predicting stability</h3>
+
+<p>Understanding biological insurance mechanisms, such as how differences among organisms' responses to environmental change can generate stability.</p>
+
+<a href="research.qmd#response-diversity">Find out more <span>→</span></a>
+
+:::
+
+
+::: {.research-card .research-acoustic}
+
+<div class="research-number">02</div>
+<div class="research-label">ECOACOUSTICS</div>
+
+<h3>Ecological big data for measuring real-world stability and change</h3>
+
+<p>Using passive acoustic monitoring of natural soundscapes to observe ecosystem dynamics across spatial and temporal scales relevant to ecosystem management.</p>
+
+<a href="research.qmd#ecoacoustics">Find out more <span>→</span></a>
+
+:::
+
+:::
+
+:::
+
+
+## Recent publications
+
+::: {#recent-publications}
+:::
+
+<p class="view-all"><a href="publications.qmd">View all publications →</a></p>
+
+
+::: {.contact-strip}
+
+<div>
+  <div class="eyebrow">FIND ME</div>
+  <p>Haubi Center for Advanced Research & Graduate School of Agriculture, Kyoto University · Kyoto, Japan</p>
+</div>
+
+<div class="social-text">
+  <a href="https://orcid.org/0000-0001-9402-9119">ORCID</a>
+  <a href="https://scholar.google.co.uk/citations?user=R3aMfY0AAAAJ&hl=en">Scholar</a>
+  <a href="https://x.com/SamRPJRoss">X</a>
+  <a href="https://github.com/SamRPJRoss">GitHub</a>
+  <a href="https://www.researchgate.net/profile/Samuel-Ross-4">ResearchGate</a>
+</div>
+
+:::

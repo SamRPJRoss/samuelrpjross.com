@@ -1,0 +1,15 @@
+# Structured people data will be added here once the current group
+# members and their English/Japanese details are supplied.
+#
+# Example:
+#
+# - name_en: Jane Smith
+#   name_ja: ジェーン・スミス
+#   position_en: PhD student
+#   position_ja: 博士課程
+#   image: assets/images/jane-smith.jpg
+#   research_en: ...
+#   research_ja: ...
+#   links:
+#     - label: ORCID
+#       url: https://orcid.org/...

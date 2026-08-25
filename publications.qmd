@@ -1,0 +1,14 @@
+---
+title: "Publications"
+listing:
+  id: publications-all
+  contents:
+    - data/publications.yml
+  template: _templates/publications-full.ejs.md
+  sort: false
+  sort-ui: false
+  filter-ui: false
+---
+
+::: {#publications-all}
+:::

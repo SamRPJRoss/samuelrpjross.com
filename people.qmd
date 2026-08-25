@@ -1,0 +1,144 @@
+---
+title: "People"
+---
+
+<div class="people-list">
+
+<div class="person-entry">
+
+<img
+  class="person-photo"
+  src="assets/images/people/sam-ross.jpg"
+  alt="Samuel R.P-J. Ross"
+>
+
+<div class="person-details">
+
+<div class="person-name-row">
+  <h2 class="person-name">Dr Samuel R.P-J. Ross</h2>
+  <span class="pronouns">He/Him</span>
+</div>
+
+<div class="jp-person-name">ロス・サムエル</div>
+
+<p class="person-position"><strong>Associate Professor</strong> | 特定准教授</p>
+
+<p class="person-email"><strong>Email:</strong> s.ross.res [at] outlook.com</p>
+
+<div class="person-qualifications">
+
+**PhD** (Trinity College Dublin, Ireland)  
+**MBiol, BSc** (University of Leeds, UK)
+
+</div>
+
+<div class="person-affiliation">
+
+Hakubi Center for Advanced Research
+Graduate School of Agriculture (concurrent)  
+**Kyoto University**
+
+Kitashirakawa Oiwake-cho, Sakyo-ku, Kyoto, 606-8502 Japan
+
+<div class="person-affiliation-jp">
+
+白眉センター  
+農学研究科 (兼任)  
+**京都大学**
+
+〒606-8502 京都市左京区北白川追分町
+
+</div>
+
+</div>
+
+<p class="person-bio">
+I’m interested in the abiotic and biotic drivers of ecological stability. Specifically, I develop concepts and methods for assessing the role of response diversity in driving stability, and I use ecoacoustic data to quantify ecosystem dynamics, change, and stability in real-world ecosystems. In my spare time, I enjoy reading, going to the cinema, drinking matcha lattes, and being Kyoto's least-requested DJ.
+</p>
+
+<div class="person-socials">
+
+<a href="https://scholar.google.co.uk/citations?user=R3aMfY0AAAAJ&hl=en"
+   aria-label="Google Scholar"
+   title="Google Scholar">
+  <i class="bi bi-mortarboard-fill"></i>
+</a>
+
+<a href="https://x.com/SamRPJRoss"
+   aria-label="X"
+   title="X">
+  <i class="bi bi-twitter-x"></i>
+</a>
+
+<a href="https://github.com/SamRPJRoss"
+   aria-label="GitHub"
+   title="GitHub">
+  <i class="bi bi-github"></i>
+</a>
+
+<a href="https://www.researchgate.net/profile/Samuel-Ross-4"
+   aria-label="ResearchGate"
+   title="ResearchGate">
+  <i class="bi bi-person-lines-fill"></i>
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="person-entry">
+
+<img
+  class="person-photo"
+  src="assets/images/people/nacho.jpg"
+  alt="Nacho"
+>
+
+<div class="person-details">
+
+<div class="person-name-row">
+  <h2 class="person-name">Nacho</h2>
+  <span class="pronouns">He/Him</span>
+</div>
+
+<div class="jp-person-name">ナチョちゃん</div>
+
+<p class="person-position"><strong>Research Support Staff</strong> | 研究支援者</p>
+
+<p class="person-bio">
+Nacho provides essential support. His main research focus is prey capture rates, especially of toy mice and feathers on strings. He likes birdwatching and napping in the sun.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="past-members">
+
+## Past members
+
+<div class="past-member">
+<strong>Anthony Gibbons</strong>
+<span class="past-member-role">Visiting Research Student · Maynooth University, Ireland</span>
+<span class="past-member-date">Spring 2025</span>
+</div>
+
+<div class="past-member">
+<strong>Chii Kojima</strong>
+<span class="past-member-role">Research Intern · OIST, Japan</span>
+<span class="past-member-date">Summer 2023</span>
+</div>
+
+<div class="past-member">
+<strong>Aurika Musiienko</strong>
+<span class="past-member-role">Research Intern · OIST, Japan</span>
+<span class="past-member-date">Summer 2023</span>
+</div>
+
+</div>

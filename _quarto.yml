@@ -1,0 +1,67 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Samuel R.P-J. Ross"
+  description: "Samuel R.P-J. Ross — ecologist studying ecological stability, response diversity, and ecoacoustics."
+  site-url: "https://samuelrpjross.com"
+  favicon: "assets/images/favicon.svg"
+
+  navbar:
+    background: "#ffffff"
+    foreground: "#202326"
+    pinned: true
+    title: "SAMUEL R.P-J. ROSS"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: people.qmd
+        text: People
+      - href: publications.qmd
+        text: Publications
+    right:
+      - icon: globe
+        text: "EN / JP"
+        href: "#"
+      - icon: orcid
+        href: "https://orcid.org/0000-0001-9402-9119"
+        aria-label: "ORCID"
+      - icon: mortarboard-fill
+        href: "https://scholar.google.co.uk/citations?user=R3aMfY0AAAAJ&hl=en"
+        aria-label: "Google Scholar"
+      - icon: twitter-x
+        href: "https://x.com/SamRPJRoss"
+        aria-label: "X"
+      - icon: github
+        href: "https://github.com/SamRPJRoss"
+        aria-label: "GitHub"
+      - icon: person-lines-fill
+        href: "https://www.researchgate.net/profile/Samuel-Ross-4"
+        aria-label: "ResearchGate"
+
+  page-footer:
+    left: "© 2026 Samuel R.P-J. Ross"
+
+format:
+  html:
+    theme: [cosmo, styles/custom.scss]
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    html-math-method: katex
+    code-fold: true
+    include-in-header:
+      - text: |
+          <meta name="author" content="Samuel R.P-J. Ross">
+          <meta name="keywords" content="ecology, ecological stability, resilience, response diversity, ecoacoustics, Kyoto University">
+          <meta property="og:type" content="website">
+          <meta property="og:title" content="Samuel R.P-J. Ross">
+          <meta property="og:description" content="Ecologist studying ecological stability, resilience, response diversity, and ecoacoustics.">
+          <meta property="og:url" content="https://samuelrpjross.com">
+          <meta name="twitter:card" content="summary_large_image">
+
+execute:
+  freeze: auto
