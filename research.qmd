@@ -46,7 +46,7 @@ Biodiversity can promote ecological stability, but simply knowing which species 
 When species respond differently to the same environmental pressures, declines in some species can be offset by increases or persistence of others. My research asks how we can measure this variation, when response diversity predicts ecological stability (and when it doesn't), and how this knowledge might ultimately help us understand and manage ecosystems in a changing world.
 
 <p class="jp-summary">
-応答の多様性とは、環境変化に対する生物の応答の違いを表す概念であり、生物多様性が生態系の安定性を支える重要な仕組みの一つと考えられています。私の研究では、応答の多様性を定義・定量化するための概念や手法を開発し、多様な生態系でその一般性を検証するとともに、国際的な研究ネットワーク「Response Diversity Network」を通じて、生態系の理解や管理への応用を目指しています。
+応答の多様性とは、環境変化に対する生物の応答の違いを表す概念であり、生物多様性が生態系の安定性を支える重要な仕組みの一つと考えられています。私の研究では、応答の多様性を定義・定量化するための概念や手法を開発し、多様な生態系でその一般性を検証するとともに、国際的な研究ネットワーク「[**Response Diversity Network**](https://responsediversitynetwork.github.io/RDN-website/)」を通じて、生態系の理解や管理への応用を目指しています。
 </p>
 
 </div>
@@ -64,8 +64,7 @@ When species respond differently to the same environmental pressures, declines i
 
 ### Testing concepts and methods
 
-A major strand of my research develops and tests ways to define, quantify, and interpret response diversity (*e.g.*, Ross *et al*. 2023, *Methods Ecol. Evol*.). I am particularly interested in when response diversity can help us understand or predict ecological stability, and how it relates to other aspects of biodiversity, functioning, and service provision.
-
+A major strand of my research develops and tests ways to define, quantify, and interpret response diversity (*e.g.*, [Ross *et al*. 2023, *Methods Ecol. Evol*.](https://doi.org/10.1111/2041-210X.14087)). I am particularly interested in when response diversity can help us understand or predict ecological stability, and how it relates to other aspects of biodiversity, functioning, and service provision.
 </div>
 
 
@@ -79,8 +78,7 @@ A major strand of my research develops and tests ways to define, quantify, and i
 
 ### Applying across study systems
 
-My work is deliberately system-agnostic. I have studied response diversity in systems ranging from European farmland birds (White *et al*. 2023, *J. Anim. Ecol*.) to free-floating aquatic plants (Ross *et al*. 2026, *bioRxiv*), asking which relationships between biodiversity, response diversity, and stability generalise across ecosystems.
-
+My work is deliberately system-agnostic. I have studied response diversity in systems ranging from European farmland birds ([White *et al*. 2023, *J. Anim. Ecol*.](https://doi.org/10.1111/1365-2656.14010)) to free-floating aquatic plants ([Ross *et al*. 2026, *bioRxiv*](https://doi.org/10.64898/2026.06.10.731482)), asking which relationships between biodiversity, response diversity, and stability generalise across ecosystems.
 </div>
 
 
@@ -94,7 +92,18 @@ My work is deliberately system-agnostic. I have studied response diversity in sy
 
 ### Community-led synthesis
 
-As  Deputy Chair of the **Response Diversity Network** I aim to bring together people interested in how species' responses affect stability (Ross *et al*. 2026, *Oikos*). Through workshops and collaborative research, we are creating conceptual and methodological consensus to make response diversity applicable for ecosystem management.
+As Deputy Chair of the [**Response Diversity Network**](https://responsediversitynetwork.github.io/RDN-website/) I aim to bring together people interested in how species' responses affect stability ([Ross *et al*. 2026, *Oikos*](https://doi.org/10.1002/oik.11358)). We are collaboratively building conceptual and methodological consensus to make response diversity applicable for ecosystem management.
+
+<a
+  class="rdn-card-logo"
+  href="https://responsediversitynetwork.github.io/RDN-website/"
+  aria-label="Visit the Response Diversity Network website"
+>
+  <img
+    src="assets/images/research/rdn-logo.png"
+    alt="Response Diversity Network"
+  >
+</a>
 
 </div>
 
@@ -104,15 +113,17 @@ As  Deputy Chair of the **Response Diversity Network** I aim to bring together p
 
 <div class="research-support-text">
 
-I am part of the EU-funded MSCA Doctoral Network **ReDiLEEP**: Using science-driven **Re**sponse **Di**versity Knowledge to **L**everage **E**fficient **E**cosystem **P**reservation and Restoration. Please see our website for more information on ReDiLEEP vacancies, activities, and outputs.
+I am part of the EU-funded MSCA Doctoral Network [**ReDiLEEP**](https://redileep.eu/): Using science-driven **Re**sponse **Di**versity Knowledge to **L**everage **E**fficient **E**cosystem **P**reservation and Restoration. Please see [our website](https://redileep.eu/) for more information on ReDiLEEP vacancies, activities, and outputs.
 
 </div>
 
 <div class="research-support-logo">
+<a href="https://redileep.eu/" aria-label="Visit the ReDiLEEP website">
 <img
   src="assets/images/research/redileep-logo.png"
   alt="ReDiLEEP"
 >
+</a>
 </div>
 
 </div>
@@ -168,8 +179,7 @@ Passive acoustic monitoring allows us to record these soundscapes autonomously a
   
 <p class="strand-meta">TYPHOONS · LAND-DEVELOPMENT · LONG-TERM MONITORING</p>
 
-In Okinawa, we've been recording soundscapes for 10 years. I use this long-term acoustic data to ask how land development and major disturbances such as typhoons shape species and soundscape dynamics through time (*e.g*. Ross *et al*. 2024, *Glob. Chang. Biol*.).
-
+In Okinawa, we've been recording soundscapes for 10 years. I use this long-term acoustic data to ask how land development and major disturbances such as typhoons shape species and soundscape dynamics through time (*e.g.* [Ross *et al*. 2024, *Glob. Chang. Biol*.](https://doi.org/10.1111/gcb.17067)).
 </div>
 
 
@@ -202,8 +212,7 @@ In Fukushima, complete abandonment of settlements following the 2011 nuclear dis
 
 <p class="strand-meta">FRESHWATER DYNAMICS · PULSE DISTURBANCE</p>
 
-In Hokkaido, I will build on our previous work in Horonai stream (Ross *et al*. 2022, *Glob. Chang. Biol*.) to experimentally measure the responses of ecosystem processes and soundscapes to disturbances such as noise pollution and heatwaves.
-
+In Hokkaido, I will build on our previous work in Horonai stream ([Ross *et al*. 2022, *Glob. Chang. Biol*.](https://doi.org/10.1111/gcb.15956)) to experimentally measure the responses of ecosystem processes and soundscapes to disturbances such as noise pollution and heatwaves.
 </div>
 
 </div>
@@ -212,15 +221,14 @@ In Hokkaido, I will build on our previous work in Horonai stream (Ross *et al*. 
 
 <div class="research-support-text">
 
-This work is supported by a JST 創発 (FOREST) grant: ⾳響解析による⽣態系レジリエンス解明 | *Elucidating the drivers of ecosystem resilience through acoustic analysis*.
-
+This work is supported by a [JST 創発 (FOREST) grant](https://www.jst.go.jp/souhatsu/research/panel_oki.html): ⾳響解析による⽣態系レジリエンス解明 | *Elucidating the drivers of ecosystem resilience through acoustic analysis*.
 </div>
 
 <div class="research-support-logo">
+<a href="https://www.jst.go.jp/souhatsu/research/panel_oki.html" aria-label="Visit the JST FOREST project page">
 <img
   src="assets/images/research/sohatsu-logo.png"
   alt="JST FOREST"
 >
-</div>
-
+</a>
 </div>

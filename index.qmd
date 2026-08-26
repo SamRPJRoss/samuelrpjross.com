@@ -111,7 +111,12 @@ I'm an Associate Professor at the Hakubi Center for Advanced Research and Gradua
 
 <div>
   <div class="eyebrow">FIND ME</div>
-  <p>Hakubi Center for Advanced Research & Graduate School of Agriculture, Kyoto University · Kyoto, Japan</p>
+<p>
+  <a href="https://www.hakubi.kyoto-u.ac.jp/en/">Hakubi Center for Advanced Research</a>
+  &amp;
+  <a href="https://www.kais.kyoto-u.ac.jp/english/">Graduate School of Agriculture</a>,
+  Kyoto University · Kyoto, Japan
+</p>
 </div>
 
 <div class="social-text">

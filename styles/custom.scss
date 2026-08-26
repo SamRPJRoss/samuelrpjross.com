@@ -140,6 +140,11 @@ footer {
   border-top: 1px solid $line;
 }
 
+/* Hide Quarto automatic heading anchor links */
+.anchorjs-link {
+  display: none !important;
+}
+
 
 /* =========================================================
    Homepage hero
@@ -813,6 +818,27 @@ footer {
   object-fit: contain;
 }
 
+/* Response Diversity Network logo */
+
+.rdn-card-logo {
+  display: block;
+  width: fit-content;
+
+  margin: auto 1.4rem 0;
+  padding-top: 1.2rem;
+
+  text-decoration: none;
+}
+
+.rdn-card-logo img {
+  display: block;
+
+  width: auto;
+  max-width: 175px;
+  max-height: 55px;
+
+  object-fit: contain;
+}
 
 /* =========================================================
    People
@@ -877,10 +903,6 @@ footer {
 
   font-size: clamp(1.55rem, 2.5vw, 2.15rem);
   line-height: 1.2;
-}
-
-.person-name-row .anchorjs-link {
-  display: none !important;
 }
 
 .pronouns {
@@ -1234,6 +1256,24 @@ footer {
   font-size: .62rem;
 }
 
+.publication-doi {
+  margin: .25rem 0 .7rem;
+
+  font-size: .76rem;
+  line-height: 1.4;
+}
+
+.publication-doi a {
+  color: $muted;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.publication-doi a:hover {
+  color: $burgundy;
+  text-decoration: underline;
+}
+
 
 /* =========================================================
    Page-level headings
@@ -1392,7 +1432,6 @@ main > h2 {
     font-size: .72rem;
   }
 }
-
 
 /* =========================================================
    Responsive — mobile

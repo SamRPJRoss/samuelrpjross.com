@@ -1,385 +1,447 @@
-- title: Acoustic detection of a rarely vocalising invasive mammal from sparse data
-  section: Preprints
-  year: '2026'
-  class: acoustic
-  authors: <strong>Gibbons A</strong>, Parnell A, Donohue I, Ogasawara M, <strong>Ross SRP-J</strong>.
-  journal: <em>bioRxiv</em> · Preprint
+- title: "Acoustic detection of a rarely vocalising invasive mammal from sparse data"
+  section: "Preprints"
+  year: "2026"
+  class: "acoustic"
+  authors: "<strong>Gibbons A</strong>, Parnell A, Donohue I, Ogasawara M, <strong>Ross SRP-J</strong>."
+  journal: "<em>bioRxiv</em> · Preprint"
+  doi: "https://doi.org/10.64898/2026.06.19.733324"
   tags:
-  - label: ECOACOUSTICS
-    class: acoustic
+    - label: "ECOACOUSTICS"
+      class: "acoustic"
   links:
-  - label: DOI / FULL TEXT
-    url: https://doi.org/10.64898/2026.06.19.733324
-- title: Response diversity inconsistently predicts functional robustness to simulated zooplankton extinctions
-  section: Preprints
-  year: '2026'
-  class: stability
-  authors: <strong>Ross SRP-J</strong>, Suzuki H, Urabe J, Kass JM.
-  journal: <em>bioRxiv</em> · Preprint
+    - label: "Read article"
+      url: "https://doi.org/10.64898/2026.06.19.733324"
+
+
+- title: "Response diversity inconsistently predicts functional robustness to simulated zooplankton extinctions"
+  section: "Preprints"
+  year: "2026"
+  class: "stability"
+  authors: "<strong>Ross SRP-J</strong>, Suzuki H, Urabe J, Kass JM."
+  journal: "<em>bioRxiv</em> · Preprint"
+  doi: "https://doi.org/10.64898/2026.06.19.733370"
   tags:
-  - label: DISTURBANCE/STABILITY
-    class: stability
+    - label: "DISTURBANCE/STABILITY"
+      class: "stability"
   links:
-  - label: DOI / FULL TEXT
-    url: https://doi.org/10.64898/2026.06.19.733370
-- title: Species responses to nutrient loading promote resistance but not temporal stability in floating macrophyte communities
-  section: Preprints
-  year: '2026'
-  class: stability
-  authors: <strong>Ross SRP-J</strong>, Mihai A, <strong>Kojima C</strong>, Armitage DW.
-  journal: <em>bioRxiv</em> · Preprint
+    - label: "Read article"
+      url: "https://doi.org/10.64898/2026.06.19.733370"
+
+
+- title: "Species responses to nutrient loading promote resistance but not temporal stability in floating macrophyte communities"
+  section: "Preprints"
+  year: "2026"
+  class: "stability"
+  authors: "<strong>Ross SRP-J</strong>, Mihai A, <strong>Kojima C</strong>, Armitage DW."
+  journal: "<em>bioRxiv</em> · Preprint"
+  doi: "https://doi.org/10.64898/2026.06.10.731482"
   tags:
-  - label: DISTURBANCE/STABILITY
-    class: stability
+    - label: "DISTURBANCE/STABILITY"
+      class: "stability"
   links:
-  - label: DOI / FULL TEXT
-    url: https://doi.org/10.64898/2026.06.10.731482
-- title: Interpopulation differences in developmental plasticity of carnivores determine the emergence of a trophic interaction
-  section: Preprints
-  year: '2020'
-  class: other
-  authors: Atsumi K, <strong>Ross SRP-J</strong>, Kishida O.
-  journal: <em>EcoEvoRxiv</em> · Preprint
+    - label: "Read article"
+      url: "https://doi.org/10.64898/2026.06.10.731482"
+
+
+- title: "Interpopulation differences in developmental plasticity of carnivores determine the emergence of a trophic interaction"
+  section: "Preprints"
+  year: "2020"
+  class: "other"
+  authors: "Atsumi K, <strong>Ross SRP-J</strong>, Kishida O."
+  journal: "<em>EcoEvoRxiv</em> · Preprint"
+  doi: "https://doi.org/10.32942/osf.io/uz7rj"
   tags:
-  - label: OTHER
-    class: other
+    - label: "OTHER"
+      class: "other"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2022/11/Atsumi-et-al.-2020-preprint.pdf
-  - label: DOI
-    url: https://doi.org/10.32942/osf.io/uz7rj
-  - label: DATA + CODE
-    url: https://github.com/Kei-Atsumi/Genetic_variations_in_opposing_plasticities
-- title: A general hidden Markov model framework for capturing changes in species behaviour under disturbance in acoustic time series
-  section: '2026'
-  year: '2026'
-  class: stability-acoustic
-  authors: Mathew L, Brophy C, Donohue I, <strong>Ross SRP-J</strong>, D’Angelo S.
-  journal: <em>Ecological Modelling</em> 516(6), 111524.
+    - label: "Read article"
+      url: "https://doi.org/10.32942/osf.io/uz7rj"
+    - label: "Data & code"
+      url: "https://github.com/Kei-Atsumi/Genetic_variations_in_opposing_plasticities"
+
+
+- title: "A general hidden Markov model framework for capturing changes in species behaviour under disturbance in acoustic time series"
+  section: "2026"
+  year: "2026"
+  class: "stability-acoustic"
+  authors: "Mathew L, Brophy C, Donohue I, <strong>Ross SRP-J</strong>, D’Angelo S."
+  journal: "<em>Ecological Modelling</em> 516(6), 111524."
+  doi: "https://doi.org/10.1016/j.ecolmodel.2026.111524"
   tags:
-  - label: DISTURBANCE/STABILITY
-    class: stability
-  - label: ECOACOUSTICS
-    class: acoustic
+    - label: "DISTURBANCE/STABILITY"
+      class: "stability"
+    - label: "ECOACOUSTICS"
+      class: "acoustic"
   links:
-  - label: DOI / FULL TEXT
-    url: https://doi.org/10.1016/j.ecolmodel.2026.111524
-  - label: DATA + CODE
-    url: https://github.com/littyanna/biodivmonit
-- title: Expert-led priorities for a response diversity research agenda in ecology
-  section: '2026'
-  year: '2026'
-  class: stability
-  authors: <strong>Ross SRP-J</strong>, Barros C, Dee LE, Fowler MS, Petchey OL, Sasaki T, White HJ, LoPresti A.
-  journal: <em>Oikos</em> 2026(3), e11358.
+    - label: "Read article"
+      url: "https://doi.org/10.1016/j.ecolmodel.2026.111524"
+    - label: "Data & code"
+      url: "https://github.com/littyanna/biodivmonit"
+
+
+- title: "Expert-led priorities for a response diversity research agenda in ecology"
+  section: "2026"
+  year: "2026"
+  class: "stability"
+  authors: "<strong>Ross SRP-J</strong>, Barros C, Dee LE, Fowler MS, Petchey OL, Sasaki T, White HJ, LoPresti A."
+  journal: "<em>Oikos</em> 2026(3), e11358."
+  doi: "https://doi.org/10.1002/oik.11358"
   tags:
-  - label: DISTURBANCE/STABILITY
-    class: stability
+    - label: "DISTURBANCE/STABILITY"
+      class: "stability"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2026/01/Ross-et-al.-2026_Oikos.pdf
-  - label: DOI
-    url: https://doi.org/10.1002/oik.11358
-- title: 'Assessing ecosystem dynamics under disturbance: a Hidden Markov Model framework for species detection data'
-  section: '2025'
-  year: '2025'
-  class: stability-acoustic
-  authors: Mathew L, Brophy C, Donohue I, <strong>Ross SRP-J</strong>, D’Angelo S.
-  journal: '<em>Proceedings of the 7th International Conference on Statistics: Theory and Applications</em>, 151.'
+    - label: "Read article"
+      url: "https://doi.org/10.1002/oik.11358"
+    - label: "Data & code"
+      url: "https://doi.org/10.5281/zenodo.17547779"
+
+
+- title: "Assessing ecosystem dynamics under disturbance: a Hidden Markov Model framework for species detection data"
+  section: "2025"
+  year: "2025"
+  class: "stability-acoustic"
+  authors: "Mathew L, Brophy C, Donohue I, <strong>Ross SRP-J</strong>, D’Angelo S."
+  journal: "<em>Proceedings of the 7th International Conference on Statistics: Theory and Applications</em>, 151."
+  doi: "https://doi.org/10.11159/icsta25.151"
   tags:
-  - label: DISTURBANCE/STABILITY
-    class: stability
-  - label: ECOACOUSTICS
-    class: acoustic
+    - label: "DISTURBANCE/STABILITY"
+      class: "stability"
+    - label: "ECOACOUSTICS"
+      class: "acoustic"
   links:
-  - label: DOI / FULL TEXT
-    url: https://doi.org/10.11159/icsta25.151
-- title: 'The Acoustic Index User’s Guide: A practical manual for defining, generating and understanding current and future acoustic indices'
-  section: '2025'
-  year: '2025'
-  class: acoustic
-  authors: Bradfer-Lawrence TL, Duthie BA, Abrahams C, Adam M, Barnett R, Beeston A, Darby J, Dell B, Gardner N, Gasc A, Heath B, Howells NS,
-    Janson M, Kyoseva M-V, Luypaert T, Metcalf O, Nousek-McGregor A, Poznansky F, <strong>Ross SRP-J</strong>, Sethi SS, Smyth S, Waddell E, Froidevaux
-    J.
-  journal: <em>Methods in Ecology and Evolution</em> 16(6), 1040–1050.
+    - label: "Read article"
+      url: "https://doi.org/10.11159/icsta25.151"
+
+
+- title: "The Acoustic Index User’s Guide: A practical manual for defining, generating and understanding current and future acoustic indices"
+  section: "2025"
+  year: "2025"
+  class: "acoustic"
+  authors: "Bradfer-Lawrence TL, Duthie BA, Abrahams C, Adam M, Barnett R, Beeston A, Darby J, Dell B, Gardner N, Gasc A, Heath B, Howells NS, Janson M, Kyoseva M-V, Luypaert T, Metcalf O, Nousek-McGregor A, Poznansky F, <strong>Ross SRP-J</strong>, Sethi SS, Smyth S, Waddell E, Froidevaux J."
+  journal: "<em>Methods in Ecology and Evolution</em> 16(6), 1040–1050."
+  doi: "https://doi.org/10.1111/2041-210X.14357"
   tags:
-  - label: ECOACOUSTICS
-    class: acoustic
+    - label: "ECOACOUSTICS"
+      class: "acoustic"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2024/08/Bradfer-Lawrence-et-al-2024_MEE.pdf
-  - label: DOI
-    url: https://doi.org/10.1111/2041-210X.14357
-  - label: GUIDE
-    url: https://ecohack.shinyapps.io/Acoustic_Index_Users_Guide/
-- title: 'Worldwide soundscapes: A synthesis of passive acoustic monitoring across realms'
-  section: '2025'
-  year: '2025'
-  class: acoustic
-  authors: Darras KFA, Rountree R, Van Wilgenburg S, Cord AF, Chen Y, Dong L, Rocquencourt A, Desjonquères C, Diaz PM, Lin T-H, Turco T, Emmerson
-    L, Bradfer-Lawrence T, Gasc A, Marley S, …, <strong>Ross SRP-J</strong>, …, Wanger TC.
-  journal: <em>Global Ecology and Biogeography</em> 34(5), e70021.
+    - label: "Read article"
+      url: "https://doi.org/10.1111/2041-210X.14357"
+    - label: "User guide"
+      url: "https://ecohack.shinyapps.io/Acoustic_Index_Users_Guide/"
+
+
+- title: "Worldwide soundscapes: A synthesis of passive acoustic monitoring across realms"
+  section: "2025"
+  year: "2025"
+  class: "acoustic"
+  authors: "Darras KFA, Rountree R, Van Wilgenburg S, Cord AF, Chen Y, Dong L, Rocquencourt A, Desjonquères C, Diaz PM, Lin T-H, Turco T, Emmerson L, Bradfer-Lawrence T, Gasc A, Marley S, …, <strong>Ross SRP-J</strong>, …, Wanger TC."
+  journal: "<em>Global Ecology and Biogeography</em> 34(5), e70021."
+  doi: "https://doi.org/10.1111/geb.70021"
   tags:
-  - label: ECOACOUSTICS
-    class: acoustic
+    - label: "ECOACOUSTICS"
+      class: "acoustic"
   links:
-  - label: DOI / FULL TEXT
-    url: https://doi.org/10.1111/geb.70021
-- title: Extreme drought increases the temporal variability of grassland productivity by suppressing dominant grasses
-  section: '2025'
-  year: '2025'
-  class: stability
-  authors: Luo W, Ishii NI, Muraina TO, Song L, Te N, Griffin-Nolan RJ, Slette IJ, <strong>Ross SRP-J</strong>, Sasaki T, Rudgers JA, Smith MD,
-    Knapp AK, Collins SL.
-  journal: <em>Ecology Letters</em> 28(4), e70127.
+    - label: "Read article"
+      url: "https://doi.org/10.1111/geb.70021"
+    - label: "Data & code"
+      url: "https://doi.org/10.5281/zenodo.10598949"
+
+
+- title: "Extreme drought increases the temporal variability of grassland productivity by suppressing dominant grasses"
+  section: "2025"
+  year: "2025"
+  class: "stability"
+  authors: "Luo W, Ishii NI, Muraina TO, Song L, Te N, Griffin-Nolan RJ, Slette IJ, <strong>Ross SRP-J</strong>, Sasaki T, Rudgers JA, Smith MD, Knapp AK, Collins SL."
+  journal: "<em>Ecology Letters</em> 28(4), e70127."
+  doi: "https://doi.org/10.1111/ele.70127"
   tags:
-  - label: DISTURBANCE/STABILITY
-    class: stability
+    - label: "DISTURBANCE/STABILITY"
+      class: "stability"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2025/04/Ecology-Letters-2025-Luo-Extreme-Drought-Increases-the-Temporal-Variability-of-Grassland-Productivity-by-Suppressing.pdf
-  - label: DOI
-    url: https://doi.org/10.1111/ele.70127
-- title: Measuring the response diversity of ecological communities experiencing multifarious environmental change
-  section: '2024'
-  year: '2024'
-  class: stability
-  authors: Polazzo F, Limberger R, Pennekamp F, <strong>Ross SRP-J</strong>, Simpson G, Petchey OL.
-  journal: <em>Global Change Biology</em> 30(11), e17594.
+    - label: "Read article"
+      url: "assets/pdfs/luo-et-al-2025-ecology-letters.pdf"
+    - label: "Data & code"
+      url: "https://doi.org/10.5281/zenodo.15093791"
+
+
+- title: "Measuring the response diversity of ecological communities experiencing multifarious environmental change"
+  section: "2024"
+  year: "2024"
+  class: "stability"
+  authors: "Polazzo F, Limberger R, Pennekamp F, <strong>Ross SRP-J</strong>, Simpson G, Petchey OL."
+  journal: "<em>Global Change Biology</em> 30(11), e17594."
+  doi: "https://doi.org/10.1111/gcb.17594"
   tags:
-  - label: DISTURBANCE/STABILITY
-    class: stability
+    - label: "DISTURBANCE/STABILITY"
+      class: "stability"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2024/12/Polazzo-et-al.-2024_Glob-Chang-Biol.pdf
-  - label: DOI
-    url: https://doi.org/10.1111/gcb.17594
-  - label: DATA + CODE
-    url: https://github.com/opetchey/multifarious_response_diversity/releases/tag/v0.1
-- title: A dataset of acoustic measurements from soundscapes collected worldwide during the COVID-19 pandemic
-  section: '2024'
-  year: '2024'
-  class: acoustic
-  authors: Challéat S, Farrugia N, Froidevaux JSP, Gasc A, Pajusco, Silent Cities project consortium.
-  journal: <em>Scientific Data</em> 11, 928.
+    - label: "Read article"
+      url: "https://doi.org/10.1111/gcb.17594"
+    - label: "Data & code"
+      url: "https://github.com/opetchey/multifarious_response_diversity/releases/tag/v0.1"
+
+
+- title: "A dataset of acoustic measurements from soundscapes collected worldwide during the COVID-19 pandemic"
+  section: "2024"
+  year: "2024"
+  class: "acoustic"
+  authors: "Challéat S, Farrugia N, Froidevaux JSP, Gasc A, Pajusco, Silent Cities project consortium."
+  journal: "<em>Scientific Data</em> 11, 928."
+  doi: "https://doi.org/10.1038/s41597-024-03611-7"
   tags:
-  - label: ECOACOUSTICS
-    class: acoustic
+    - label: "ECOACOUSTICS"
+      class: "acoustic"
   links:
-  - label: DOI / FULL TEXT
-    url: https://doi.org/10.1038/s41597-024-03611-7
-- title: Limited theoretical and empirical evidence that response diversity determines the resilience of ecosystems to environmental change
-  section: '2024'
-  year: '2024'
-  class: stability
-  authors: <strong>Ross SRP-J</strong> &amp; Sasaki T.
-  journal: <em>Ecological Research</em> 39(2), 115–130.
+    - label: "Read article"
+      url: "https://doi.org/10.1038/s41597-024-03611-7"
+    - label: "Data & code"
+      url: "https://doi.org/10.17605/OSF.IO/H285U"
+
+
+- title: "Limited theoretical and empirical evidence that response diversity determines the resilience of ecosystems to environmental change"
+  section: "2024"
+  year: "2024"
+  class: "stability"
+  authors: "<strong>Ross SRP-J</strong> &amp; Sasaki T."
+  journal: "<em>Ecological Research</em> 39(2), 115–130."
+  doi: "https://doi.org/10.1111/1440-1703.12434"
   tags:
-  - label: DISTURBANCE/STABILITY
-    class: stability
+    - label: "DISTURBANCE/STABILITY"
+      class: "stability"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2023/12/Ross-Sasaki-2023_Ecol-Res.pdf
-  - label: DOI
-    url: https://doi.org/10.1111/1440-1703.12434
-- title: Divergent ecological responses to typhoon disturbance revealed via landscape-scale acoustic monitoring
-  section: '2024'
-  year: '2024'
-  class: stability-acoustic
-  authors: <strong>Ross SRP-J</strong>, Friedman NR, Dudley KL, Yoshida T, Yoshimura M, Economo EP, Armitage DW, Donohue I.
-  journal: <em>Global Change Biology</em> 30(1), e17067.
+    - label: "Read article"
+      url: "https://doi.org/10.1111/1440-1703.12434"
+
+
+- title: "Divergent ecological responses to typhoon disturbance revealed via landscape-scale acoustic monitoring"
+  section: "2024"
+  year: "2024"
+  class: "stability-acoustic"
+  authors: "<strong>Ross SRP-J</strong>, Friedman NR, Dudley KL, Yoshida T, Yoshimura M, Economo EP, Armitage DW, Donohue I."
+  journal: "<em>Global Change Biology</em> 30(1), e17067."
+  doi: "https://doi.org/10.1111/gcb.17067"
   tags:
-  - label: DISTURBANCE/STABILITY
-    class: stability
-  - label: ECOACOUSTICS
-    class: acoustic
+    - label: "DISTURBANCE/STABILITY"
+      class: "stability"
+    - label: "ECOACOUSTICS"
+      class: "acoustic"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2023/12/Ross-et-al.-2023_Glob.-Chang.-Biol.pdf
-  - label: DOI
-    url: https://doi.org/10.1111/gcb.17067
-- title: Response trait diversity and species asynchrony underlie the diversity-stability relationship in Romanian bird communities
-  section: '2023'
-  year: '2023'
-  class: stability
-  authors: White HJ, Bailey JJ, Bogdan C, <strong>Ross SRP-J</strong>.
-  journal: <em>Journal of Animal Ecology</em> 92(12), 2309–2322.
+    - label: "Read article"
+      url: "https://doi.org/10.1111/gcb.17067"
+    - label: "Data & code"
+      url: "https://doi.org/10.5281/zenodo.7520062"
+
+
+- title: "Response trait diversity and species asynchrony underlie the diversity-stability relationship in Romanian bird communities"
+  section: "2023"
+  year: "2023"
+  class: "stability"
+  authors: "White HJ, Bailey JJ, Bogdan C, <strong>Ross SRP-J</strong>."
+  journal: "<em>Journal of Animal Ecology</em> 92(12), 2309–2322."
+  doi: "https://doi.org/10.1111/1365-2656.14010"
   tags:
-  - label: DISTURBANCE/STABILITY
-    class: stability
+    - label: "DISTURBANCE/STABILITY"
+      class: "stability"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2023/10/White-et-al.-2023_J.-Anim.-Ecol.pdf
-  - label: DOI
-    url: https://doi.org/10.1111/1365-2656.14010
-- title: How to measure response diversity
-  section: '2023'
-  year: '2023'
-  class: stability
-  authors: <strong>Ross SRP-J</strong>, Petchey OL, Sasaki T, Armitage DW.
-  journal: <em>Methods in Ecology and Evolution</em> 14(5), 1150–1167.
+    - label: "Read article"
+      url: "https://doi.org/10.1111/1365-2656.14010"
+    - label: "Data & code"
+      url: "https://doi.org/10.5281/zenodo.8054891"
+
+
+- title: "How to measure response diversity"
+  section: "2023"
+  year: "2023"
+  class: "stability"
+  authors: "<strong>Ross SRP-J</strong>, Petchey OL, Sasaki T, Armitage DW."
+  journal: "<em>Methods in Ecology and Evolution</em> 14(5), 1150–1167."
+  doi: "https://doi.org/10.1111/2041-210X.14087"
   tags:
-  - label: DISTURBANCE/STABILITY
-    class: stability
+    - label: "DISTURBANCE/STABILITY"
+      class: "stability"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2023/03/Ross-et-al.-2023_Methods-Ecol-Evol.pdf
-  - label: DOI
-    url: https://doi.org/10.1111/2041-210X.14087
-  - label: DATA + CODE
-    url: https://github.com/opetchey/response_diversity_how_to_measure/releases/tag/v1.0-review
-- title: Passive acoustic monitoring provides a fresh perspective on fundamental ecological questions
-  section: '2023'
-  year: '2023'
-  class: acoustic
-  authors: <strong>Ross SRP-J</strong>, O’Connell DP, Deichmann JL, Desjonquères C, Gasc A, Phillips JN, Sethi SS, Wood CM, Burivalova Z.
-  journal: <em>Functional Ecology</em> 37(4), 959–975.
+    - label: "Read article"
+      url: "https://doi.org/10.1111/2041-210X.14087"
+    - label: "Data & code"
+      url: "https://github.com/opetchey/response_diversity_how_to_measure/releases/tag/v1.0-review"
+
+
+- title: "Passive acoustic monitoring provides a fresh perspective on fundamental ecological questions"
+  section: "2023"
+  year: "2023"
+  class: "acoustic"
+  authors: "<strong>Ross SRP-J</strong>, O’Connell DP, Deichmann JL, Desjonquères C, Gasc A, Phillips JN, Sethi SS, Wood CM, Burivalova Z."
+  journal: "<em>Functional Ecology</em> 37(4), 959–975."
+  doi: "https://doi.org/10.1111/1365-2435.14275"
   tags:
-  - label: ECOACOUSTICS
-    class: acoustic
+    - label: "ECOACOUSTICS"
+      class: "acoustic"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2023/02/Ross-et-al.-2023_Funct.-Ecol.pdf
-  - label: DOI
-    url: https://doi.org/10.1111/1365-2435.14275
-- title: A suburban soundscape reveals altered acoustic dynamics during the COVID-19 lockdown
-  section: '2022'
-  year: '2022'
-  class: stability-acoustic
-  authors: <strong>Ross SRP-J</strong>.
-  journal: <em>Journal of Ecoacoustics</em> 6(1), 1–18.
+    - label: "Read article"
+      url: "https://doi.org/10.1111/1365-2435.14275"
+
+
+- title: "A suburban soundscape reveals altered acoustic dynamics during the COVID-19 lockdown"
+  section: "2022"
+  year: "2022"
+  class: "stability-acoustic"
+  authors: "<strong>Ross SRP-J</strong>."
+  journal: "<em>Journal of Ecoacoustics</em> 6(1), 1–18."
+  doi: "https://doi.org/10.35995/jea6010001"
   tags:
-  - label: DISTURBANCE/STABILITY
-    class: stability
-  - label: ECOACOUSTICS
-    class: acoustic
+    - label: "DISTURBANCE/STABILITY"
+      class: "stability"
+    - label: "ECOACOUSTICS"
+      class: "acoustic"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2023/02/A-Suburban-Soundscape-Reveals-Altered-Acoustic-Dynamics-during-the-COVID-19-Lockdown.pdf
-  - label: DOI
-    url: https://doi.org/10.35995/jea6010001
-- title: Predators mitigate the destabilising effects of heatwaves on multitrophic stream communities
-  section: '2022'
-  year: '2022'
-  class: stability
-  authors: <strong>Ross SRP-J</strong>, García Molinos J, Okuda A, Johnstone J, Atsumi K, Futamura R, Williams MW, Matsuoka Y, Uchida J, Kumikawa
-    S, Sugiyama H, Kishida O, Donohue I.
-  journal: <em>Global Change Biology</em> 28(2), 403–416.
+    - label: "Read article"
+      url: "https://doi.org/10.35995/jea6010001"
+    - label: "Data & code"
+      url: "https://doi.org/10.5281/zenodo.5170605"
+
+
+- title: "Predators mitigate the destabilising effects of heatwaves on multitrophic stream communities"
+  section: "2022"
+  year: "2022"
+  class: "stability"
+  authors: "<strong>Ross SRP-J</strong>, García Molinos J, Okuda A, Johnstone J, Atsumi K, Futamura R, Williams MW, Matsuoka Y, Uchida J, Kumikawa S, Sugiyama H, Kishida O, Donohue I."
+  journal: "<em>Global Change Biology</em> 28(2), 403–416."
+  doi: "https://doi.org/10.1111/gcb.15956"
   tags:
-  - label: DISTURBANCE/STABILITY
-    class: stability
+    - label: "DISTURBANCE/STABILITY"
+      class: "stability"
   links:
-  - label: DOI
-    url: https://doi.org/10.1111/gcb.15956
-- title: Universal scaling of robustness of ecosystem services to species loss
-  section: '2021'
-  year: '2021'
-  class: stability
-  authors: <strong>Ross SRP-J</strong>*, Arnoldi J-F*, Loreau M, White CD, Stout JC, Jackson AL, Donohue I.
-  journal: <em>Nature Communications</em> 12, 5167.
+    - label: "Read article"
+      url: "assets/pdfs/ross-et-al-2022-global-change-biology.pdf"
+    - label: "Data & code"
+      url: "https://doi.org/10.5281/zenodo.5018448"
+
+
+- title: "Universal scaling of robustness of ecosystem services to species loss"
+  section: "2021"
+  year: "2021"
+  class: "stability"
+  authors: "<strong>Ross SRP-J</strong>*, Arnoldi J-F*, Loreau M, White CD, Stout JC, Jackson AL, Donohue I."
+  journal: "<em>Nature Communications</em> 12, 5167."
+  doi: "https://doi.org/10.1038/s41467-021-25507-5"
   tags:
-  - label: DISTURBANCE/STABILITY
-    class: stability
+    - label: "DISTURBANCE/STABILITY"
+      class: "stability"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2022/11/Ross-Arnoldi-et-al.-2021_Nature-Comms.pdf
-  - label: DOI
-    url: https://doi.org/10.1038/s41467-021-25507-5
-- title: Illuminating the intrinsic and extrinsic drivers of ecological stability across scales
-  section: '2021'
-  year: '2021'
-  class: stability
-  authors: <strong>Ross SRP-J</strong>*, Suzuki Y*, Kondoh M, Suzuki K, Villa Martín P, Dornelas M.
-  journal: <em>Ecological Research</em> 36(3), 364–378.
+    - label: "Read article"
+      url: "https://doi.org/10.1038/s41467-021-25507-5"
+    - label: "Data & code"
+      url: "https://doi.org/10.5281/zenodo.4749405"
+
+
+- title: "Illuminating the intrinsic and extrinsic drivers of ecological stability across scales"
+  section: "2021"
+  year: "2021"
+  class: "stability"
+  authors: "<strong>Ross SRP-J</strong>*, Suzuki Y*, Kondoh M, Suzuki K, Villa Martín P, Dornelas M."
+  journal: "<em>Ecological Research</em> 36(3), 364–378."
+  doi: "https://doi.org/10.1111/1440-1703.12214"
   tags:
-  - label: DISTURBANCE/STABILITY
-    class: stability
+    - label: "DISTURBANCE/STABILITY"
+      class: "stability"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2022/11/Ross-Suzuki-et-al.-2021_Ecol.-Res.pdf
-  - label: DOI
-    url: https://doi.org/10.1111/1440-1703.12214
-- title: Utility of acoustic indices for ecological monitoring in complex sonic environments
-  section: '2021'
-  year: '2021'
-  class: acoustic
-  authors: <strong>Ross SRP-J</strong>, Friedman NR, Yoshimura M, Yoshida T, Donohue I, Economo EP.
-  journal: <em>Ecological Indicators</em> 121, 107114.
+    - label: "Read article"
+      url: "https://doi.org/10.1111/1440-1703.12214"
+
+
+- title: "Utility of acoustic indices for ecological monitoring in complex sonic environments"
+  section: "2021"
+  year: "2021"
+  class: "acoustic"
+  authors: "<strong>Ross SRP-J</strong>, Friedman NR, Yoshimura M, Yoshida T, Donohue I, Economo EP."
+  journal: "<em>Ecological Indicators</em> 121, 107114."
+  doi: "https://doi.org/10.1016/j.ecolind.2020.107114"
   tags:
-  - label: ECOACOUSTICS
-    class: acoustic
+    - label: "ECOACOUSTICS"
+      class: "acoustic"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2022/11/Ross-et-al.-2021_Ecol.-Indicat.pdf
-  - label: DOI
-    url: https://doi.org/10.1016/j.ecolind.2020.107114
-- title: A test of trophic and functional island biogeography theory with the avifauna of a continental archipelago
-  section: '2019'
-  year: '2019'
-  class: other
-  authors: <strong>Ross SRP-J</strong>, Friedman NR, Janicki J, Economo EP.
-  journal: <em>Journal of Animal Ecology</em> 88(9), 1392–1405.
+    - label: "Read article"
+      url: "https://doi.org/10.1016/j.ecolind.2020.107114"
+    - label: "Data & code"
+      url: "https://doi.org/10.5281/zenodo.4081631"
+
+
+- title: "A test of trophic and functional island biogeography theory with the avifauna of a continental archipelago"
+  section: "2019"
+  year: "2019"
+  class: "other"
+  authors: "<strong>Ross SRP-J</strong>, Friedman NR, Janicki J, Economo EP."
+  journal: "<em>Journal of Animal Ecology</em> 88(9), 1392–1405."
+  doi: "https://doi.org/10.1111/1365-2656.13029"
   tags:
-  - label: OTHER
-    class: other
+    - label: "OTHER"
+      class: "other"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2022/11/Ross-et-al.-2019_J.-Anim.-Ecol.pdf
-  - label: DOI
-    url: https://doi.org/10.1111/1365-2656.13029
-- title: Selective logging intensity in an East African rain forest predicts reductions in ant diversity
-  section: '2018'
-  year: '2018'
-  class: other
-  authors: <strong>Ross SRP-J</strong>, Hita Garcia F, Fischer G, Peters MK.
-  journal: <em>Biotropica</em> 50(5), 768–778.
+    - label: "Read article"
+      url: "https://doi.org/10.1111/1365-2656.13029"
+    - label: "Data & code"
+      url: "https://doi.org/10.5061/dryad.54tm887"
+
+
+- title: "Selective logging intensity in an East African rain forest predicts reductions in ant diversity"
+  section: "2018"
+  year: "2018"
+  class: "other"
+  authors: "<strong>Ross SRP-J</strong>, Hita Garcia F, Fischer G, Peters MK."
+  journal: "<em>Biotropica</em> 50(5), 768–778."
+  doi: "https://doi.org/10.1111/btp.12569"
   tags:
-  - label: OTHER
-    class: other
+    - label: "OTHER"
+      class: "other"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2022/11/Ross-et-al.-2018_Biotropica.pdf
-  - label: DOI
-    url: https://doi.org/10.1111/btp.12569
-- title: A generalizable framework for multi-scale auditing of digital learning provision in higher education
-  section: '2018'
-  year: '2018'
-  class: other
-  authors: <strong>Ross SRP-J</strong>, Volz V, Lancaster MK, Divan A.
-  journal: <em>Online Learning</em> 22(2), 249–269.
+    - label: "Read article"
+      url: "assets/pdfs/ross-et-al-2018-biotropica.pdf"
+    - label: "Data & code"
+      url: "https://doi.org/10.5061/dryad.8hq75j7"
+
+
+- title: "A generalizable framework for multi-scale auditing of digital learning provision in higher education"
+  section: "2018"
+  year: "2018"
+  class: "other"
+  authors: "<strong>Ross SRP-J</strong>, Volz V, Lancaster MK, Divan A."
+  journal: "<em>Online Learning</em> 22(2), 249–269."
+  doi: "https://doi.org/10.24059/olj.v22i2.1229"
   tags:
-  - label: OTHER
-    class: other
+    - label: "OTHER"
+      class: "other"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2022/11/Ross-et-al.-2018_Online-Learning.pdf
-  - label: DOI
-    url: https://doi.org/10.24059/olj.v22i2.1229
-- title: 'Listening to ecosystems: data-rich acoustic monitoring through landscape-scale sensor networks'
-  section: '2018'
-  year: '2018'
-  class: acoustic
-  authors: <strong>Ross SRP-J</strong>*, Friedman NR*, Dudley KL, Yoshimura M, Yoshida T, Economo EP.
-  journal: <em>Ecological Research</em> 33(1), 135–147.
+    - label: "Read article"
+      url: "assets/pdfs/ross-et-al-2018-online-learning.pdf"
+
+
+- title: "Listening to ecosystems: data-rich acoustic monitoring through landscape-scale sensor networks"
+  section: "2018"
+  year: "2018"
+  class: "acoustic"
+  authors: "<strong>Ross SRP-J</strong>*, Friedman NR*, Dudley KL, Yoshimura M, Yoshida T, Economo EP."
+  journal: "<em>Ecological Research</em> 33(1), 135–147."
+  doi: "https://doi.org/10.1007/s11284-017-1509-5"
   tags:
-  - label: ECOACOUSTICS
-    class: acoustic
+    - label: "ECOACOUSTICS"
+      class: "acoustic"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2022/11/Ross-Friedman-et-al.-2018_Ecol.-Res..pdf
-  - label: DOI
-    url: https://doi.org/10.1007/s11284-017-1509-5
-- title: 'Incorporating intraspecific trait variation into functional diversity: Impacts of selective logging on birds in Borneo'
-  section: '2017'
-  year: '2017'
-  class: other
-  authors: <strong>Ross SRP-J</strong>, Hassall C, Hoppitt WJE, Edwards FA, Edwards DP, Hamer KC.
-  journal: <em>Methods in Ecology and Evolution</em> 8(11), 1499–1505.
+    - label: "Read article"
+      url: "https://doi.org/10.1007/s11284-017-1509-5"
+
+
+- title: "Incorporating intraspecific trait variation into functional diversity: Impacts of selective logging on birds in Borneo"
+  section: "2017"
+  year: "2017"
+  class: "other"
+  authors: "<strong>Ross SRP-J</strong>, Hassall C, Hoppitt WJE, Edwards FA, Edwards DP, Hamer KC."
+  journal: "<em>Methods in Ecology and Evolution</em> 8(11), 1499–1505."
+  doi: "https://doi.org/10.1111/2041-210X.12769"
   tags:
-  - label: OTHER
-    class: other
+    - label: "OTHER"
+      class: "other"
   links:
-  - label: PDF
-    url: https://samuelrpjross.com/wp-content/uploads/2022/11/Ross-et-al.-2017_Methods-Ecol.-Evol.pdf
-  - label: DOI
-    url: https://doi.org/10.1111/2041-210X.12769
+    - label: "Read article"
+      url: "https://doi.org/10.1111/2041-210X.12769"
+    - label: "Data & code"
+      url: "https://doi.org/10.5061/dryad.5vr09"
