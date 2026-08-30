@@ -72,7 +72,7 @@ A major strand of my research develops and tests ways to define, quantify, and i
 
 <img
   class="strand-image"
-  src="assets/images/research/rd-systems.png"
+  src="assets/images/research/rd-systems.jpg"
   alt="Response diversity research across ecological systems"
 >
 
