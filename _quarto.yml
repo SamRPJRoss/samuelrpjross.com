@@ -29,9 +29,6 @@ website:
       - icon: mortarboard-fill
         href: "https://scholar.google.co.uk/citations?user=R3aMfY0AAAAJ&hl=en"
         aria-label: "Google Scholar"
-      - icon: twitter-x
-        href: "https://x.com/SamRPJRoss"
-        aria-label: "X"
       - icon: github
         href: "https://github.com/SamRPJRoss"
         aria-label: "GitHub"
