@@ -1183,6 +1183,33 @@ footer {
   }
 }
 
+/* ReDiLEEP logo in vacancy */
+
+.vacancy-redileep-logo {
+  display: block;
+  width: fit-content;
+
+  margin: 1.5rem 0 .6rem;
+
+  text-decoration: none;
+}
+
+.vacancy-redileep-logo img {
+  display: block;
+
+  width: auto;
+  max-width: 250px;
+  max-height: 150px;
+
+  object-fit: contain;
+
+  transition: opacity .15s ease;
+}
+
+.vacancy-redileep-logo:hover img {
+  opacity: .72;
+}
+
 /* =========================================================
    Past members
    ========================================================= */

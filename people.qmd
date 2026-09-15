@@ -121,6 +121,80 @@ Nacho provides essential support. His main research focus is prey capture rates,
 
 </div>
 
+<div class="open-positions">
+
+## Open positions
+
+<div class="person-entry vacancy-entry">
+
+<div class="vacancy-placeholder vacancy-technical">
+  <span class="vacancy-placeholder-en">JOIN US</span>
+  <span class="vacancy-placeholder-jp">OPEN PHD POSITION</span>
+</div>
+
+<div class="person-details">
+
+<div class="person-name-row">
+  <h2 class="person-name">PhD position</h2>
+</div>
+
+<div class="jp-person-name">Ecoacoustics · Species interactions · Response diversity</div>
+
+<p class="person-position">
+<strong>Fully funded PhD</strong> | Linköping University, Sweden
+</p>
+
+<div class="vacancy-meta">
+
+<strong>Project:</strong> Species interaction networks and response diversity in soundscapes  
+<strong>Host institution:</strong> Linköping University, Sweden  
+<strong>Main supervisor:</strong> Prof. Anna Eklöf  
+<strong>Co-supervisor:</strong> Dr Samuel R.P-J. Ross (Kyoto University), Dr Sara Keen (Earth Species Project)  
+<strong>Application deadline:</strong> 5 October 2026
+
+</div>
+
+<p class="person-bio">
+We are recruiting a fully funded PhD student to apply ecoacoustics to the study of species interactions and response diversity. 
+</p>
+
+<p class="person-bio">
+The position is part of the wider ReDiLEEP Doctoral Network, which brings together researchers across Europe and beyond to investigate how response diversity contributes to ecological resilience and stability.
+</p>
+
+<p class="person-bio">
+<strong>Eligibility:</strong> EU mobility rules apply. Applicants are not eligible if they have resided or carried out their main activity in Sweden for more than 12 months during the 36 months immediately before recruitment.
+</p>
+
+<p class="person-keywords-jp">
+Ecoacoustics · Species interactions · Response diversity
+</p>
+
+<a class="vacancy-redileep-logo"
+   href="https://redileep.eu/"
+   aria-label="Visit the ReDiLEEP Doctoral Network website"
+   title="ReDiLEEP Doctoral Network">
+
+  <img
+    src="assets/images/research/redileep-logo.png"
+    alt="ReDiLEEP Doctoral Network"
+  >
+
+</a>
+
+<a class="vacancy-button"
+   href="https://liu.se/en/work-at-liu/vacancies/29829">
+  View position &amp; apply
+</a>
+
+&nbsp;&nbsp;
+
+</div>
+
+</div>
+
+</div>
+
 ## Past members
 
 <div class="past-member">
