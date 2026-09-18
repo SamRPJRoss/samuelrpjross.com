@@ -1244,6 +1244,35 @@ footer {
   opacity: .72;
 }
 
+/* JST FOREST / Sohatsu logo in vacancy */
+
+.vacancy-jst-logo {
+  display: block;
+
+  width: fit-content;
+
+  margin: 1.5rem 0 .6rem;
+
+  text-decoration: none;
+}
+
+.vacancy-jst-logo img {
+  display: block;
+
+  width: auto;
+
+  max-width: 250px;
+  max-height: 150px;
+
+  object-fit: contain;
+
+  transition: opacity .15s ease;
+}
+
+.vacancy-jst-logo:hover img {
+  opacity: .72;
+}
+
 /* =========================================================
    Past members
    ========================================================= */
