@@ -122,7 +122,6 @@ I'm an Associate Professor at the Hakubi Center for Advanced Research and Gradua
 <div class="social-text">
   <a href="https://orcid.org/0000-0001-9402-9119">ORCID</a>
   <a href="https://scholar.google.co.uk/citations?user=R3aMfY0AAAAJ&hl=en">Scholar</a>
-  <a href="https://x.com/SamRPJRoss">X</a>
   <a href="https://github.com/SamRPJRoss">GitHub</a>
   <a href="https://www.researchgate.net/profile/Samuel-Ross-4">ResearchGate</a>
 </div>
