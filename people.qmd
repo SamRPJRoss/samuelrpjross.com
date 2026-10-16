@@ -265,7 +265,7 @@ JST創発的研究支援事業「音響解析による生態系レジリエン�
 </div>
 
 <!-- ======================================================
-     ReDiLEEP DC2
+     ReDiLEEP PhD – Cardiff University
      ====================================================== -->
 
 <div class="person-entry vacancy-entry">
@@ -281,36 +281,36 @@ JST創発的研究支援事業「音響解析による生態系レジリエン�
   <h2 class="person-name">PhD position</h2>
 </div>
 
-<div class="jp-person-name">Ecoacoustics · Species interactions · Response diversity</div>
+<div class="jp-person-name">Network ecology · Response diversity · Biomonitoring</div>
 
 <p class="person-position">
-<strong>Fully funded PhD</strong> | Linköping University, Sweden
+<strong>Fully funded PhD</strong> | Cardiff University, UK
 </p>
 
 <div class="vacancy-meta">
 
-<strong>Project:</strong> Species interaction networks and response diversity in soundscapes  
-<strong>Host institution:</strong> Linköping University, Sweden  
-<strong>Main supervisor:</strong> Prof. Anna Eklöf  
-<strong>Co-supervisor:</strong> Dr Samuel R.P-J. Ross (Kyoto University), Dr Sara Keen (Earth Species Project)  
-<strong>Application deadline:</strong> 5 October 2026
+<strong>Project:</strong> How can we measure response diversity at scale and across different taxa?  
+<strong>Host institution:</strong> Cardiff University, UK  
+<strong>Main supervisor:</strong> Dr Fred Windsor  
+<strong>Co-supervisor:</strong> Dr Samuel R.P-J. Ross (Kyoto University)  
+<strong>Application deadline:</strong> 6 November 2026
 
 </div>
 
 <p class="person-bio">
-We are recruiting a fully funded PhD student to apply ecoacoustics to the study of species interactions and response diversity. 
+We are recruiting a fully funded PhD student to develop approaches for measuring response diversity at scale, including through biomonitoring methods such as ecoacoustics.
 </p>
 
 <p class="person-bio">
-The position is part of the wider ReDiLEEP Doctoral Network, which brings together researchers across Europe and beyond to investigate how response diversity contributes to ecological resilience and stability.
+The student will be based at Cardiff University, supervised by Dr Fred Windsor, and co-supervised by me, with an extended research visit to Kyoto. The position is part of the wider ReDiLEEP Doctoral Network, which brings together researchers across Europe and beyond to investigate how response diversity contributes to ecological resilience and stability.
 </p>
 
 <p class="person-bio">
-<strong>Eligibility:</strong> EU mobility rules apply. Applicants are not eligible if they have resided or carried out their main activity in Sweden for more than 12 months during the 36 months immediately before recruitment.
+<strong>Eligibility:</strong> EU mobility rules apply. Applicants are not eligible if they have resided or carried out their main activity in the United Kingdom for more than 12 months during the 36 months immediately before recruitment.
 </p>
 
 <p class="person-keywords-jp">
-Ecoacoustics · Species interactions · Response diversity
+Response diversity · Network ecology · Biomonitoring · Ecoacoustics
 </p>
 
 <a class="vacancy-redileep-logo"
@@ -326,7 +326,7 @@ Ecoacoustics · Species interactions · Response diversity
 </a>
 
 <a class="vacancy-button"
-   href="https://liu.se/en/work-at-liu/vacancies/29829">
+   href="https://cardiffuniweb.eploy.net/vacancies/935/marie-sklodowska-curie-early-stage-researcher-esr-in-network-ecology-and-response-diversity.html">
   View position &amp; apply
 </a>
 
