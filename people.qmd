@@ -326,7 +326,7 @@ Response diversity · Network ecology · Biomonitoring · Ecoacoustics
 </a>
 
 <a class="vacancy-button"
-   href="https://cardiffuniweb.eploy.net/vacancies/935/marie-sklodowska-curie-early-stage-researcher-esr-in-network-ecology-and-response-diversity.html">
+   href="https://euraxess.ec.europa.eu/jobs/475964">
   View position &amp; apply
 </a>
 
