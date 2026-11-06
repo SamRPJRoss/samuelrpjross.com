@@ -1273,6 +1273,90 @@ footer {
   opacity: .72;
 }
 
+/* ======================================================
+   INTERESTED IN JOINING THE GROUP
+   ====================================================== */
+
+.joining-group {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.joining-group > h2 {
+  margin-top: 2rem;
+  margin-bottom: 1.4rem;
+  padding-top: 1rem;
+  border-top: 2px solid rgba(140, 0, 67, .20);
+  font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+}
+
+.joining-group p {
+  max-width: 760px;
+  line-height: 1.7;
+}
+
+.joining-intro {
+  margin-bottom: 1.6rem;
+}
+
+.joining-category {
+  max-width: 760px;
+  margin-bottom: 1.4rem;
+}
+
+.joining-category h3 {
+  margin: 0 0 .45rem;
+  padding: 0;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: $ink;
+}
+
+.joining-category p {
+  margin: .35rem 0 .65rem;
+}
+
+.joining-contact {
+  margin: 1.5rem 0 1.8rem;
+}
+
+.joining-japanese {
+  max-width: 760px;
+  margin-top: 1.8rem;
+  padding: 1.2rem 1.4rem;
+  background: rgba(32, 35, 38, .035);
+  border-left: 3px solid rgba(140, 0, 67, .20);
+}
+
+.joining-japanese h3 {
+  margin: 0 0 .8rem;
+  padding: 0;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  color: $ink;
+}
+
+.joining-japanese p {
+  margin: .6rem 0;
+  font-size: .88rem;
+  line-height: 1.85;
+  color: $muted;
+}
+
+.joining-japanese strong {
+  color: $ink;
+}
+
+.joining-disclaimer {
+  margin: 1rem 0 0;
+  font-size: .78rem;
+  line-height: 1.6;
+  color: $muted;
+}
+
 /* =========================================================
    Past members
    ========================================================= */
