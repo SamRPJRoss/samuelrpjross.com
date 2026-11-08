@@ -1,0 +1,138 @@
+
+[
+  {
+    "date": "2026-11-06",
+    "category": "Event",
+    "title": "Symposium at Island Biology 2026",
+    "description": "Sam and Jamie Kass organised a symposium in Atami, Japan, exploring next-generation methods and data for fine-scale island biodiversity monitoring.",
+    "description_ja": "島嶼生物多様性の詳細なモニタリングに向けた新しい手法とデータをテーマに、シンポジウムを共同企画しました。",
+    "image": "assets/images/news/island-biology-2026.jpg",
+    "image_alt": "Island Biology 2026 symposium in Atami, Japan",
+    "link": "https://sites.google.com/view/island-biology-2026/program-and-schedule?authuser=0",
+    "link_text": "View conference programme"
+  },
+  {
+    "date": "2026-10-01",
+    "category": "Research",
+    "title": "JST FOREST project begins",
+    "description": "The new project investigates ecosystem resilience through large-scale acoustic monitoring and analysis.",
+    "description_ja": "JST創発的研究支援事業による、生態系レジリエンスの解明に向けた研究を開始しました。",
+    "image": "assets/images/research/sohatsu-logo.png",
+    "image_type": "logo",
+    "link": "research.qmd#ecoacoustics",
+    "link_text": "Explore the research"
+  },
+  {
+    "date": "2026-09-01",
+    "category": "Research",
+    "title": "ReDiLEEP Doctoral Network launches",
+    "description": "The ReDiLEEP Doctoral Network will bring together international partners working to advance research on response diversity.",
+    "description_ja": "応答多様性の研究を推進する国際博士課程ネットワーク「ReDiLEEP」のウェブサイトが公開されました。",
+    "image": "assets/images/research/redileep-logo.png",
+    "image_type": "logo",
+    "link": "https://redileep.eu/",
+    "link_text": "Visit ReDiLEEP"
+  },
+  {
+    "date": "2026-09-01",
+    "category": "People",
+    "title": "Sam moves to Kyoto University",
+    "description": "Sam joins the Hakubi Center for Advanced Research as an Associate Professor, cross-appointed by the Graduate School of Agriculture.",
+    "description_ja": "京都大学白眉センターの特定准教授に着任しました（農学研究科兼任）。",
+    "image": "assets/images/news/kyoto-uni.png",
+    "image_type": "logo",
+    "link": "people.qmd",
+    "link_text": "Meet the group"
+  },
+  {
+    "date": "2026-07-01",
+    "date_precision": "month",
+    "category": "Service",
+    "title": "Appointed Associate Editor-in-Chief at Ecological Research",
+    "description": "Sam becomes an Associate Editor-in-Chief of Ecological Research, stepping up from his previous role as Handling Editor.",
+    "description_ja": "『Ecological Research』誌のAssociate Editor-in-Chiefに就任しました。",
+    "image": "assets/images/news/ecol-res.jpg",
+    "image_type": "logo",
+    "link": "https://esj-journals.onlinelibrary.wiley.com/journal/14401703",
+    "link_text": "Visit the journal"
+  },
+  {
+  "date": "2026-07-01",
+  "date_precision": "month",
+  "category": "Service",
+  "title": "Appointed Deputy Chair of the Response Diversity Network",
+  "description": "Sam takes on the role of Deputy Chair of the Response Diversity Network after a restructure. He will support strategic planning, policy development, and the coordination of collaborative research.",
+  "description_ja": "Response diversity networkの副代表に就任し、戦略立案や運営方針の策定、共同研究の推進に取り組んでいます。",
+  "image": "assets/images/research/rdn-logo.png",
+  "image_type": "logo",
+  "image_alt": "Response Diversity Network logo",
+  "link": "https://responsediversitynetwork.github.io/RDN-website/",
+  "link_text": "Visit the website"
+},
+  {
+    "date": "2026-06-01",
+    "date_precision": "month",
+    "category": "Service",
+    "title": "Appointed Associate Editor at Methods in Ecology and Evolution",
+    "description": "Sam joins Methods in Ecology and Evolution as an Associate Editor.",
+    "description_ja": "『Methods in Ecology and Evolution』誌のAssociate Editorに就任しました。",
+    "image": "assets/images/news/mee.jpeg",
+    "link": "https://besjournals.onlinelibrary.wiley.com/journal/2041210X",
+    "link_text": "Visit the journal"
+  },
+  {
+    "date": "2026-04-21",
+    "category": "Media",
+    "title": "Sam featured in Asahi Shimbun GLOBE+",
+    "description": "A feature exploring Sam's ecological research, including acoustic monitoring, biodiversity, and ecosystem resilience.",
+    "description_ja": "朝日新聞GLOBE+で、これまでの研究活動が紹介されました。",
+    "image": "assets/images/research/ecoacoustics.jpg",
+    "link": "https://globe.asahi.com/article/16509669",
+    "link_text": "Read the feature"
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Research",
+    "title": "New paper: Collective behavioural responses to typhoons",
+    "description": "Published in Ecological Modelling, this study develops a hidden Markov model framework for detecting changes in species behaviour from acoustic time series.",
+    "description_ja": "音響時系列データから撹乱に伴う生物の行動変化を捉える新たな解析手法を発表しました。",
+    "image": "assets/images/news/ecol-modelling.jpeg",
+    "image_type": "logo",
+    "link": "https://doi.org/10.1016/j.ecolmodel.2026.111524",
+    "link_text": "Read the paper"
+  },
+  {
+    "date": "2026-01-25",
+    "category": "Research",
+    "title": "New paper: A new research agenda for response diversity",
+    "description": "Published in Oikos, our expert-led survey identifies priorities for advancing response diversity research and application in ecology.",
+    "description_ja": "応答多様性研究の今後の重要課題をまとめた論文が『Oikos』誌に掲載されました。",
+    "image": "assets/images/news/oikos.png",
+    "image_type": "logo",
+    "link": "https://doi.org/10.1002/oik.11358",
+    "link_text": "Read the paper"
+  },
+  {
+  "date": "2025-06-01",
+  "date_precision": "month",
+  "category": "Research",
+  "title": "New paper: Acoustic Index User's Guide",
+  "description": "Published in Methods in Ecology and Evolution, Tom Bradfer-Lawrence et al. developed a practical guide explaining how to define, calculate, and interpret acoustic indices.",
+  "description_ja": "生物多様性モニタリングに用いる音響指標の定義・算出・解釈を解説した実践的なガイドが『Methods in Ecology and Evolution』誌に掲載されました。",
+  "image": "assets/images/news/mee.jpeg",
+  "image_type": "logo",
+  "image_alt": "Methods in Ecology and Evolution journal logo",
+  "link": "https://doi.org/10.1111/2041-210X.14357",
+  "link_text": "Read the paper"
+},
+{
+  "date": "2024-04-21",
+  "category": "Media",
+  "title": "Typhoon research featured in The Japan Times",
+  "description": "An interview and feature in The Japan Times exploring acoustic monitoring research in Okinawa and what soundscapes can reveal about biodiversity and environmental change.",
+  "description_ja": "沖縄での音響モニタリング研究と、生物多様性や環境変化を捉える音風景の可能性について、英字新聞『The Japan Times』で紹介されました。",
+  "image": "assets/images/research/okinawa.jpg",
+  "link": "https://www.japantimes.co.jp/environment/2024/04/21/wildlife/okinawa-sound-climate-change/",
+  "link_text": "Read the feature"
+}
+]

@@ -1,15 +1,6 @@
 ---
 title: ""
 description: "Samuel R.P-J. Ross — ecologist studying ecological stability, response diversity, and ecoacoustics."
-listing:
-  id: recent-publications
-  contents:
-    - data/publications.yml
-  template: _templates/publications-recent.ejs.md
-  sort: false
-  max-items: 3
-  sort-ui: false
-  filter-ui: false
 ---
 
 ::: {.hero}
@@ -99,12 +90,30 @@ I'm an Associate Professor at the Hakubi Center for Advanced Research and Gradua
 :::
 
 
-## Recent publications
+## Latest news
 
-::: {#recent-publications}
+::: {.news-carousel}
+
+::: {.news-toolbar}
+
+<span class="news-counter" aria-live="off"></span>
+
+<div class="news-controls">
+<button class="news-prev" type="button" aria-label="Previous news item">←</button>
+<button class="news-next" type="button" aria-label="Next news item">→</button>
+</div>
+
 :::
 
-<p class="view-all"><a href="publications.qmd">View all publications →</a></p>
+::: {.news-track tabindex="0" aria-label="Scroll through news items"}
+
+<p class="news-loading">Loading news…</p>
+
+:::
+
+:::
+
+<script src="assets/js/news-carousel.js" defer></script>
 
 
 ::: {.contact-strip}

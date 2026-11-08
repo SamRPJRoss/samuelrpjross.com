@@ -1,5 +1,9 @@
 project:
   type: website
+  resources:
+    - data/news.json
+    - assets/js/news-carousel.js
+    - assets/images/news/
   output-dir: _site
 
 website:
