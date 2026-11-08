@@ -37,8 +37,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./assets/images/favicon.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
@@ -49,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d6238c93c707df78622e99a75927108d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a91eca7b6382a4bc2d75e3c09947ace3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,30 +75,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-recent-publications .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-section','listing-year','listing-class','listing-authors','listing-journal','listing-doi','listing-tags','listing-links',{ data: ['index'] },{ data: ['categories'] }],
-      page: 25,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-section","listing-year","listing-class","listing-authors","listing-journal","listing-doi","listing-tags","listing-links"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-recent-publications'] = new List('listing-recent-publications', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 <meta name="author" content="Samuel R.P-J. Ross">
 <meta name="keywords" content="ecology, ecological stability, resilience, response diversity, ecoacoustics, Kyoto University">
@@ -110,49 +84,6 @@ ul.task-list li input[type="checkbox"] {
 <meta property="og:url" content="https://samuelrpjross.com">
 <meta name="twitter:card" content="summary_large_image">
 
-  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
-  <script>document.addEventListener("DOMContentLoaded", function () {
- var mathElements = document.getElementsByClassName("math");
- var macros = [];
- for (var i = 0; i < mathElements.length; i++) {
-  var texText = mathElements[i].firstChild;
-  if (mathElements[i].tagName == "SPAN") {
-   katex.render(texText.data, mathElements[i], {
-    displayMode: mathElements[i].classList.contains('display'),
-    throwOnError: false,
-    macros: macros,
-    fleqn: false
-   });
-}}});
-  </script>
-  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -306,56 +237,27 @@ Using passive acoustic monitoring of natural soundscapes to observe ecosystem dy
 </div>
 </div>
 </section>
-<section id="recent-publications" class="level2">
-<h2 class="anchored" data-anchor-id="recent-publications">Recent publications</h2>
-<div id="listing-recent-publications" class="quarto-listing quarto-listing-container-custom">
-<div class="recent-publication-list">
-
-  <article class="recent-publication recent-pub-acoustic">
-    <div class="recent-pub-year">2026</div>
-    <div class="recent-pub-main">
-      <h3 class="anchored">Acoustic detection of a rarely vocalising invasive mammal from sparse data</h3>
-      <p class="recent-pub-journal"><em>bioRxiv</em> · Preprint</p>
-      <div class="recent-pub-tags">
-        
-          <span class="tag tag-acoustic">ECOACOUSTICS</span>
-        
-      </div>
-    </div>
-  </article>
-
-  <article class="recent-publication recent-pub-stability">
-    <div class="recent-pub-year">2026</div>
-    <div class="recent-pub-main">
-      <h3 class="anchored">Response diversity inconsistently predicts functional robustness to simulated zooplankton extinctions</h3>
-      <p class="recent-pub-journal"><em>bioRxiv</em> · Preprint</p>
-      <div class="recent-pub-tags">
-        
-          <span class="tag tag-stability">DISTURBANCE/STABILITY</span>
-        
-      </div>
-    </div>
-  </article>
-
-  <article class="recent-publication recent-pub-stability">
-    <div class="recent-pub-year">2026</div>
-    <div class="recent-pub-main">
-      <h3 class="anchored">Species responses to nutrient loading promote resistance but not temporal stability in floating macrophyte communities</h3>
-      <p class="recent-pub-journal"><em>bioRxiv</em> · Preprint</p>
-      <div class="recent-pub-tags">
-        
-          <span class="tag tag-stability">DISTURBANCE/STABILITY</span>
-        
-      </div>
-    </div>
-  </article>
-
+<section id="latest-news" class="level2">
+<h2 class="anchored" data-anchor-id="latest-news">Latest news</h2>
+<div class="news-carousel">
+<div class="news-toolbar">
+<p><span class="news-counter" aria-live="off"></span></p>
+<div class="news-controls">
+<button class="news-prev" type="button" aria-label="Previous news item">
+←
+</button>
+<button class="news-next" type="button" aria-label="Next news item">
+→
+</button>
 </div>
-<div class="listing-no-matching d-none">No matching items</div>
 </div>
-<p class="view-all">
-<a href="./publications.html">View all publications →</a>
+<div class="news-track" tabindex="0" aria-label="Scroll through news items">
+<p class="news-loading">
+Loading news…
 </p>
+</div>
+</div>
+<script src="assets/js/news-carousel.js" defer=""></script>
 <div class="contact-strip">
 <div>
 <div class="eyebrow">
@@ -369,7 +271,6 @@ FIND ME
 <p><a href="https://orcid.org/0000-0001-9402-9119">ORCID</a> <a href="https://scholar.google.co.uk/citations?user=R3aMfY0AAAAJ&amp;hl=en">Scholar</a> <a href="https://github.com/SamRPJRoss">GitHub</a> <a href="https://www.researchgate.net/profile/Samuel-Ross-4">ResearchGate</a></p>
 </div>
 </div>
-
 
 
 </section>
